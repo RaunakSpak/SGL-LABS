@@ -143,5 +143,49 @@ footer .social-icons a:hover {
   padding: 10px;
   text-align: center;
   font-size: 14px;
-  color: #666;
+  color: #000;
+}
+
+.verification-section {
+  background-color: #e5e5e5;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.verify-btn {
+  background-color: #1e3a78;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  font-weight: 600;
+}
+
+.verify-btn:hover {
+  background-color: #162d5f;
+}
+
+.input-box {
+  flex: 1;
+  max-width: 300px;
+}
+
+.info-text {
+  font-size: 14px;
+  white-space: nowrap;
+  margin-left: 20px;
+}
+
+.header-text {
+  font-weight: 600;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+}
+
+.header-text::before {
+  content: "";
+  margin-right: 8px;
+  font-size: 16px;
 }/*# sourceMappingURL=main.css.map */
