@@ -275,4 +275,24 @@ footer .social-icons a:hover {
 }
 .feature-section .feature-box:hover img {
   transform: scale(1.1);
+}
+
+.carousel-item-wrapper {
+  position: relative;
+}
+
+.carousel-item-wrapper img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.carousel-caption-custom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
