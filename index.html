@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="./style/main.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
 </head>
 
 <body>
@@ -23,7 +28,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Buy Diamonds</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Report & Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">DIA Screen</a></li>
@@ -141,6 +146,107 @@
         </div>
     </div>
 
+    <!-- Education-section -->
+    <div class="container py-5 education-section">
+        <h2 class="fw-bold">EDUCATION</h2>
+        <p>Enhance your career with our premier educational programs in diamonds, coloured gemstones, jewellery design,
+            and retail product management. Explore our internship opportunities. <a href="#">Know more</a></p>
+
+        <div class="position-relative">
+            <div class="owl-carousel owl-theme mt-4">
+                <!-- Item 1 -->
+                <div class="item position-relative">
+                    <img src="./images/owl-1.png" class="img-fluid">
+                    <div class="carousel-text">Qualified Jewellery Specialist</div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="item position-relative">
+                    <img src="./images/owl-3.png" class="img-fluid ">
+                    <div class="carousel-text">Advanced Gemstone Charter</div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="item position-relative">
+                    <img src="./images/owl-3.png" class="img-fluid ">
+                    <div class="carousel-text">Retail Product Management</div>
+                </div>
+            </div>
+
+            <!-- Custom Navigation Buttons -->
+            <button class="custom-prev"><span>&#8592;</span></button>
+            <button class="custom-next"><span>&#8594;</span></button>
+        </div>
+    </div>
+
+    <div class="container py-5 dia-screen">
+        <div class="row align-items-center">
+            <!-- Left Side - Text Content -->
+            <div class="col-md-6 col-lg-4 dia-screen-text">
+                <h2>DIA SCREEN</h2>
+                <p>Instantly verify diamond authenticity with our cutting-edge detection technology. Our advanced
+                    screening
+                    system ensures precise identification of natural and lab-grown diamonds, providing accuracy and
+                    confidence
+                    in every evaluation.</p>
+                <a href="#" class="know-more">Know more</a>
+            </div>
+
+            <!-- Right Side - Owl Carousel -->
+            <div class="col-md-6 dia-screen-img">
+                <div class="item"><img src="./images/Group 39.png" alt="DIA Screen XL"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid subscribe-section">
+        <div class="container py-4">
+            <h3 class="fw-bold">
+                Stay Informed With The Latest In Diamonds,
+                Screening Technology And Gemstone Education.
+            </h3>
+            <p class="fst-italic">
+                Subscribe Now For Exclusive Industry Insights!
+            </p>
+        </div>
+    </div>
+
+
+
+    <section class="linkedin-learning container m-5">
+        <div class="linkedin-learning-header">
+            <h2>LINKEDIN LEARNING</h2>
+            <p>Stay updated with industry insights, expert sessions and the latest trends in diamonds and gemstones.</p>
+        </div>
+    
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/Screenshot 2025-02-01 at 7.18.27 PM.png" alt="Post 1" class="card-img-top">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/Screenshot 2025-02-01 at 7.18.33 PM.png" alt="Post 2" class="card-img-top">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/Screenshot 2025-02-01 at 7.18.41 PM.png" alt="Post 3" class="card-img-top">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/Screenshot 2025-02-01 at 7.18.51 PM.png" alt="Post 4" class="card-img-top">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
 
 
     <!-- footer -->
@@ -209,6 +315,41 @@
         &copy; 2025 SGL Labs is a company registered in England and Wales with number 7283420.
     </div>
 
+
+
+    <!-- jQuery and Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            var owl = $(".owl-carousel");
+
+            owl.owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                dots: false,
+                autoplay: false,
+                autoplayTimeout: 3000,
+                responsive: {
+                    0: { items: 1 },
+                    768: { items: 2 },
+                    1024: { items: 3 }
+                }
+            });
+
+
+            $(".custom-prev").click(function () {
+                owl.trigger("prev.owl.carousel");
+            });
+
+            $(".custom-next").click(function () {
+                owl.trigger("next.owl.carousel");
+            });
+        });
+
+    </script>
 
 </body>
 

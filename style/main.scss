@@ -184,7 +184,7 @@ footer {
       height: 32px;
       line-height: 32px;
       text-align: center;
-      background-color: #b03a2e;
+      background: linear-gradient(to right, rgb(239, 71, 36), rgb(124, 63, 152));
       color: #fff;
       border-radius: 50%;
       margin-right: 10px;
@@ -356,23 +356,92 @@ footer {
   }
 }
 
-
-.carousel-item-wrapper {
-  position: relative;
+.education-section {
+  p {
+    font-size: 14px;
+  }
 }
 
-.carousel-item-wrapper img {
-  width: 100%;
-  border-radius: 10px;
+// Custom Navigation Buttons
+.custom-prev,
+.custom-next {
+  position: absolute;
+  background: none;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  right: 0;
 }
 
-.carousel-caption-custom {
+.custom-prev {
+  right: 50px;
+}
+
+
+.carousel-text {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  text-align: center;
   color: white;
-  padding: 10px;
+  text-align: center;
+  padding: 20px;
   font-weight: bold;
+  background: linear-gradient(to right, rgb(239, 71, 36), rgb(124, 63, 152));
+}
+
+
+.item {
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+}
+
+
+.dia-screen {
+
+  .dia-screen-text {
+    margin: auto;
+  }
+
+  .dia-screen-img {
+    padding: 20px;
+    background: #E6E7E7;
+  }
+
+}
+
+.subscribe-section {
+  background: linear-gradient(to right, #E94025, #7B3C98);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100px;
+
+  h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 16px;
+    font-style: italic;
+    color: #fff;
+    margin: 0;
+  }
+}
+
+.linkedin-learning {
+  .linkedin-learning-header {
+    h2 {
+      font-weight: bold;
+    }
+  }
 }
