@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Light-75-Bold';
+  src: url(./Light-75-Bold.eot);
+  src: url(./Light-75-Bold.eot?#iefix) format('embedded-opentype'),
+       url(./Light-75-Bold.otf) format('otf'),
+       url(./Light-75-Bold.svg#Light-75-Bold) format('svg'),
+       url(./Light-75-Bold.woff2) format('woff2'),
+       url(./Light-75-Bold.woff) format('woff'),
+       url(./Light-75-Bold.ttf) format('truetype');
+}

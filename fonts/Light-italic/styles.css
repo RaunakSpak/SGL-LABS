@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Light Italic';
+  src: url(./Light+Italic.eot);
+  src: url(./Light+Italic.eot?#iefix) format('embedded-opentype'),
+       url(./Light+Italic.ttf) format('truetype'),
+       url(./Light+Italic.woff) format('woff'),
+       url(./Light+Italic.woff2) format('woff2'),
+       url(./Light+Italic.svg#Light%20Italic) format('svg'),
+       url(./Light+Italic.otf) format('otf');
+}

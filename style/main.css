@@ -16,6 +16,22 @@
   font-style: italic;
   font-display: swap;
 }
+@font-face {
+  font-family: "LightItalic";
+  src: url("../fonts/Light-italic/Light-Italic.eot");
+  src: url("../fonts/Light-italic/Light-Italic.otf") format("opentype"), url("../fonts/Light-italic/Light-Italic.woff2") format("woff2"), url("../fonts/Light-italic/Light-Italic.woff") format("woff"), url("../fonts/Light-italic/Light-Italic.ttf") format("truetype"), url("../fonts/Light-italic/Light-Italic.svg") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Light-bold-75";
+  src: url("../fonts/Light-bold-75/HelveticaNeueLTStd-LtIt.eot");
+  src: url("../fonts/Light-bold-75/HelveticaNeueLTStd-LtIt.eot?#iefix") format("embedded-opentype"), url("../fonts/Light-bold-75/HelveticaNeueLTStd-LtIt.woff2") format("woff2"), url("../fonts/Light-bold-75/HelveticaNeueLTStd-LtIt.woff") format("woff"), url("../fonts/Light-bold-75/HelveticaNeueLTStd-LtIt.ttf") format("truetype"), url("../fonts/Light-bold-75/HelveticaNeueLTStd-LtIt.svg#HelveticaNeueLTStd-LtIt") format("svg");
+  font-weight: 300;
+  font-style: bold;
+  font-display: swap;
+}
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +43,7 @@ body {
 }
 
 .navbar {
-  background: linear-gradient(to right, #EF4724, #7C3F98);
+  background: linear-gradient(to left, #EF4724, #7C3F98);
   padding: 12px 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -49,8 +65,8 @@ body {
   padding: 8px 15px;
   transition: all 0.3s ease-in-out;
   position: relative;
-  font-family: "HelveticaNeueLTStd-Lt";
-  font-size: 10pt;
+  font-family: "Light-bold-75";
+  font-size: 12pt;
 }
 .navbar .nav-link:hover {
   color: #ffcc00 !important;
@@ -93,6 +109,7 @@ footer .footer-logo {
 footer .contact-info {
   font-size: 14px;
   color: #333;
+  line-height: 3rem;
 }
 footer .contact-info img {
   width: 18px;
@@ -129,7 +146,7 @@ footer .social-icons a {
   height: 32px;
   line-height: 32px;
   text-align: center;
-  background: linear-gradient(to right, rgb(239, 71, 36), rgb(124, 63, 152));
+  background: linear-gradient(to left, rgb(239, 71, 36), rgb(124, 63, 152));
   color: #fff;
   border-radius: 50%;
   margin-right: 10px;
@@ -141,8 +158,8 @@ footer .social-icons a:hover {
 
 .copyright {
   background-color: #ccc;
-  padding: 10px;
-  text-align: center;
+  padding: 10px 4.5rem;
+  text-align: left;
   font-size: 14px;
   color: #000;
 }
@@ -307,7 +324,7 @@ footer .social-icons a:hover {
   text-align: center;
   padding: 20px;
   font-weight: bold;
-  background: linear-gradient(to right, rgb(239, 71, 36), rgb(124, 63, 152));
+  background: linear-gradient(to left, rgb(239, 71, 36), rgb(124, 63, 152));
 }
 
 .item {
@@ -326,11 +343,22 @@ footer .social-icons a:hover {
 }
 
 .subscribe-section {
-  background: linear-gradient(to right, #E94025, #7B3C98);
+  background: linear-gradient(to left, #E94025, #7B3C98);
   padding: 20px;
   display: flex;
   flex-direction: column;
   min-height: 100px;
+}
+.subscribe-section .inside-subscribe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+.subscribe-section .inside-subscribe .fw-bold {
+  text-align: initial;
+  font-size: 25pt;
+  margin-left: 40px;
 }
 .subscribe-section h3 {
   font-size: 22px;
@@ -381,7 +409,7 @@ footer .social-icons a:hover {
 }
 
 .house-section {
-  background: linear-gradient(to right, #E74C3C, #8E44AD);
+  background: linear-gradient(to left, #E74C3C, #8E44AD);
   padding: 40px 0;
 }
 .house-section .house-card {
@@ -423,4 +451,55 @@ footer .social-icons a:hover {
     padding-left: 0;
     margin-top: 10px;
   }
+}
+
+.education-section .impact-card {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 4rem;
+}
+.education-section .impact-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+.education-section .impact-card .impact-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 4rem;
+  background: linear-gradient(to left, #E74C3C, #8E44AD);
+  color: white;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+}
+.education-section .impact-card .impact-overlay h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.education-section .impact-card .impact-overlay p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.dia-screen .dia-screen-img .item {
+  position: relative;
+  display: inline-block;
+}
+.dia-screen .dia-screen-img .item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: grayscale(100%);
+}
+.dia-screen .dia-screen-img .item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=main.css.map */

@@ -26,18 +26,48 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'LightItalic';
+  src: url('../fonts/Light-italic/Light-Italic.eot');
+  src: url('../fonts/Light-italic/Light-Italic.otf') format('opentype'),
+    url('../fonts/Light-italic/Light-Italic.woff2') format('woff2'),
+    url('../fonts/Light-italic/Light-Italic.woff') format('woff'),
+    url('../fonts/Light-italic/Light-Italic.ttf') format('truetype'),
+    url('../fonts/Light-italic/Light-Italic.svg') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Light-bold-75';
+  src: url('../fonts/Light-bold-75/HelveticaNeueLTStd-LtIt.eot');
+  src: url('../fonts/Light-bold-75/HelveticaNeueLTStd-LtIt.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Light-bold-75/HelveticaNeueLTStd-LtIt.woff2') format('woff2'),
+    url('../fonts/Light-bold-75/HelveticaNeueLTStd-LtIt.woff') format('woff'),
+    url('../fonts/Light-bold-75/HelveticaNeueLTStd-LtIt.ttf') format('truetype'),
+    url('../fonts/Light-bold-75/HelveticaNeueLTStd-LtIt.svg#HelveticaNeueLTStd-LtIt') format('svg');
+  font-weight: 300;
+  font-style: bold;
+  font-display: swap;
+}
+
 
 
 // Font Variables
 $font-family: 'HelveticaNeueLTStd-Lt';
+$font-family-bold: 'Helvetica Neue LT Std';
+$font-family-italic: 'LightItalic';
+$font-family-bold-75: 'Light-bold-75';
 
 // Font Sizes
-$font-sizes: (xsmall: 10pt,
-  small: 12pt,
-  medium: 16pt,
-  large: 24pt,
-  xlarge: 32pt,
-  xxlarge: 40pt);
+$font-sizes: (xsmall: 12pt,
+  small: 15pt,
+  medium: 18pt,
+  large: 20pt,
+  xlarge: 25pt,
+  xxlarge: 30pt,
+  xxxlarge: 40pt);
 
 // Mixin for Font Size
 @mixin font-size($size) {
@@ -61,7 +91,7 @@ body {
 
 // Navbar
 .navbar {
-  background: linear-gradient(to right, $primary-color, $secondary-color);
+  background: linear-gradient(to left, $primary-color, $secondary-color);
   padding: 12px 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
@@ -85,7 +115,7 @@ body {
     padding: 8px 15px;
     transition: all 0.3s ease-in-out;
     position: relative;
-    font-family: $font-family;
+    font-family: $font-family-bold-75;
     @include font-size(xsmall);
 
     &:hover {
@@ -138,6 +168,7 @@ footer {
   .contact-info {
     font-size: 14px;
     color: #333;
+    line-height: 3rem;
 
     img {
       width: 18px;
@@ -184,7 +215,7 @@ footer {
       height: 32px;
       line-height: 32px;
       text-align: center;
-      background: linear-gradient(to right, rgb(239, 71, 36), rgb(124, 63, 152));
+      background: linear-gradient(to left, rgb(239, 71, 36), rgb(124, 63, 152));
       color: #fff;
       border-radius: 50%;
       margin-right: 10px;
@@ -200,8 +231,8 @@ footer {
 
 .copyright {
   background-color: #ccc;
-  padding: 10px;
-  text-align: center;
+  padding: 10px 4.5rem;
+  text-align: left;
   font-size: 14px;
   color: #000;
 }
@@ -390,7 +421,7 @@ footer {
   text-align: center;
   padding: 20px;
   font-weight: bold;
-  background: linear-gradient(to right, rgb(239, 71, 36), rgb(124, 63, 152));
+  background: linear-gradient(to left, rgb(239, 71, 36), rgb(124, 63, 152));
 }
 
 
@@ -417,11 +448,24 @@ footer {
 }
 
 .subscribe-section {
-  background: linear-gradient(to right, #E94025, #7B3C98);
+  background: linear-gradient(to left, #E94025, #7B3C98);
   padding: 20px;
   display: flex;
   flex-direction: column;
   min-height: 100px;
+
+  .inside-subscribe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+    .fw-bold {
+      text-align: initial;
+      @include font-size(xlarge);
+      margin-left: 40px;
+    }
+  }
 
   h3 {
     font-size: 22px;
@@ -459,7 +503,7 @@ footer {
 
 .about-us {
 
-  .text-center{
+  .text-center {
     .img-fluid {
       width: 100%;
     }
@@ -492,56 +536,120 @@ footer {
 }
 
 .house-section {
-  background: linear-gradient(to right, #E74C3C, #8E44AD);
+  background: linear-gradient(to left, #E74C3C, #8E44AD);
   padding: 40px 0;
 
   .house-card {
-      display: flex;
-      align-items: center;
-      padding: 20px;
-      transition: transform 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
 
-      .image-container {
-          flex: 0 0 40%;
-          text-align: center;
+    .image-container {
+      flex: 0 0 40%;
+      text-align: center;
 
-          img {
-              max-width: 100%;
-              height: auto;
-          }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    .text-container {
+      flex: 0 0 60%;
+      margin-top: -6rem;
+
+      h5 {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
       }
 
-      .text-container {
-          flex: 0 0 60%;
-          margin-top: -6rem;
-
-          h5 {
-              color: #fff;
-              font-size: 16px;
-              font-weight: 800;
-              text-transform: uppercase;
-          }
-
-          p {
-              color: #fff;
-              font-size: 13px;
-              line-height: 1.5;
-              margin: 0;
-          }
+      p {
+        color: #fff;
+        font-size: 13px;
+        line-height: 1.5;
+        margin: 0;
       }
+    }
   }
 
   @media (max-width: 768px) {
-      .house-card {
-          flex-direction: column;
-          text-align: center;
+    .house-card {
+      flex-direction: column;
+      text-align: center;
 
-          .text-container {
-              padding-left: 0;
-              margin-top: 10px;
-          }
+      .text-container {
+        padding-left: 0;
+        margin-top: 10px;
       }
+    }
   }
 }
 
 
+// ecoassure page
+.education-section {
+
+  .impact-card {
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 4rem;
+      img {
+          width: 100%;
+          height: auto;
+          display: block;
+          margin-bottom: 10px; 
+      }
+
+      .impact-overlay {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          padding: 1rem 4rem;
+          background: linear-gradient(to left, #E74C3C, #8E44AD);
+          color: white;
+          text-align: left;
+          transition: all 0.3s ease-in-out;
+
+          h4 {
+              margin: 0;
+              font-size: 18px;
+              font-weight: bold;
+          }
+
+          p {
+              margin: 5px 0 0;
+              font-size: 14px;
+          }
+        }
+  }
+}
+
+.dia-screen{
+  .dia-screen-img{
+    .item {
+      position: relative;
+      display: inline-block;
+  
+      img {
+          width: 100%;
+          height: auto;
+          display: block;
+          filter: grayscale(100%); // Makes the image black & white
+      }
+  
+      &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+      }
+  }
+  
+  }
+}
