@@ -526,6 +526,7 @@ footer .social-icons a:hover {
   }
   .peace-of-mind, .content, .image-container {
     padding: 0;
+    width: 100%;
   }
   .mobile-verification {
     flex-flow: column;
