@@ -89,11 +89,12 @@ body {
   font-family: $font-family;
 }
 
-h2{
+h1,
+h2 {
   font-family: $font-family-bold-75;
 }
 
-p{
+p {
   font-family: $font-family;
 }
 
@@ -337,12 +338,6 @@ footer {
 
 .content {
   margin: 3rem 0 3rem 0;
-
-  .text-container {
-    h1 {
-      font-weight: bolder;
-    }
-  }
 }
 
 
@@ -490,13 +485,6 @@ footer {
   }
 }
 
-.linkedin-learning {
-  .linkedin-learning-header {
-    h2 {
-      font-weight: bold;
-    }
-  }
-}
 
 
 // about us
@@ -694,15 +682,15 @@ footer {
   }
 }
 
-.block-chain{
-  h2{
+.block-chain {
+  h2 {
     font-family: $font-family-bold-75;
   }
 }
 
 .origin {
   font-family: $font-family-bold-75;
-   
+
   img {
     filter: grayscale(100%);
     width: 100%;
