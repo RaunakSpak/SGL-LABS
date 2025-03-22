@@ -87,7 +87,7 @@ footer .footer-logo {
   margin-bottom: 20px;
 }
 footer .contact-info {
-  font-size: 13px;
+  font-size: 12px;
   color: #333;
   line-height: 2rem;
 }
@@ -518,4 +518,22 @@ footer .social-icons a:hover {
 .origin img {
   filter: grayscale(100%);
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .linkedin-learning {
+    margin: 10px auto !important;
+  }
+  .peace-of-mind, .content, .image-container {
+    padding: 0;
+  }
+  .mobile-verification {
+    flex-flow: column;
+  }
+  .form-control {
+    padding: 0.75rem 1rem;
+  }
+  .verify-btn {
+    margin: 10px 0;
+  }
 }/*# sourceMappingURL=main.css.map */
