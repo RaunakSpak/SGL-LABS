@@ -99,7 +99,11 @@ p {
   }
 }
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   font-family: initial;
   font-size: inherit;
   line-height: inherit;
@@ -586,7 +590,7 @@ footer {
     text-decoration: none;
     color: white;
 
-    img{
+    img {
       margin-right: 7px;
     }
   }
@@ -639,49 +643,57 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .linkedin-learning{
+  .linkedin-learning {
     margin: 10px auto !important;
   }
 
-  .peace-of-mind, .content, .image-container{
+  .peace-of-mind,
+  .content,
+  .image-container {
     padding: 0;
   }
-  .image-container img{
+
+  .image-container img {
     max-width: 100%;
   }
 
-  .mobile-verification{
+  .mobile-verification {
     flex-flow: column;
   }
 
-  .form-control{
+  .form-control {
     padding: 0.75rem 1rem;
   }
 
-  .verify-btn{
+  .verify-btn {
     margin: 10px 0;
   }
 
-  .subscribe-section{
-    h3{
+  .subscribe-section {
+    h3 {
       font-size: 22px !important;
     }
-  } 
+  }
 
-  .footer-logo{
+  .footer-logo {
     width: 155px !important;
     height: auto;
   }
 
-  .block-chain{
+  .block-chain {
     margin: 10px auto !important;
   }
 
-  .origin{
+  .origin {
     margin: 10px auto !important;
     padding: 0;
   }
-  .nav-link::after{
+
+  .nav-link::after {
     display: none;
+  }
+
+  .navbar-brand img{
+    width: 140px;
   }
 }

@@ -72,7 +72,11 @@ p {
   filter: invert(1);
 }
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   font-family: initial;
   font-size: inherit;
   line-height: inherit;
@@ -524,7 +528,9 @@ footer .social-icons a:hover {
   .linkedin-learning {
     margin: 10px auto !important;
   }
-  .peace-of-mind, .content, .image-container {
+  .peace-of-mind,
+  .content,
+  .image-container {
     padding: 0;
   }
   .image-container img {
@@ -555,5 +561,8 @@ footer .social-icons a:hover {
   }
   .nav-link::after {
     display: none;
+  }
+  .navbar-brand img {
+    width: 140px;
   }
 }/*# sourceMappingURL=main.css.map */
