@@ -39,16 +39,17 @@
 }
 
 body {
-  font-family: "HelveticaNeueLTStd-Lt";
+  font-family: "Helvetica", sans-serif;
 }
 
 h1,
 h2 {
-  font-family: "Light-bold-75";
+  font-family: "Helvetica", sans-serif;
+  font-weight: 700;
 }
 
 p {
-  font-family: "HelveticaNeueLTStd-Lt";
+  font-family: "Helvetica", sans-serif;
 }
 
 .navbar {
@@ -74,7 +75,7 @@ p {
   padding: 8px 15px;
   transition: all 0.3s ease-in-out;
   position: relative;
-  font-family: "HelveticaNeueLTStd-Lt";
+  font-family: "Helvetica", sans-serif;
   font-size: 12pt;
 }
 .navbar .nav-link:hover {
@@ -106,6 +107,12 @@ p {
   filter: invert(1);
 }
 
+button, input, optgroup, select, textarea {
+  font-family: initial;
+  font-size: inherit;
+  line-height: inherit;
+}
+
 footer {
   background-color: #f2f2f2;
   padding: 40px 0;
@@ -115,9 +122,9 @@ footer .footer-logo {
   margin-bottom: 20px;
 }
 footer .contact-info {
-  font-size: 14px;
+  font-size: 13px;
   color: #333;
-  line-height: 3rem;
+  line-height: 2rem;
 }
 footer .contact-info img {
   width: 18px;
@@ -280,7 +287,6 @@ footer .social-icons a:hover {
 }
 .feature-section .feature-box a {
   text-decoration: none;
-  font-weight: bold;
   color: #000;
   position: relative;
 }
@@ -505,6 +511,18 @@ footer .social-icons a:hover {
   height: 100%;
 }
 
+.brochure-section a {
+  right: 6rem;
+  position: absolute;
+  background: linear-gradient(to left, #E74C3C, #8E44AD);
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+.brochure-section a img {
+  margin-right: 7px;
+}
+
 .about-us .brochure {
   background: linear-gradient(to left, #E74C3C, #8E44AD);
   padding: 10px;
@@ -526,11 +544,11 @@ footer .social-icons a:hover {
 }
 
 .block-chain h2 {
-  font-family: "Light-bold-75";
+  font-family: "Helvetica", sans-serif;
 }
 
 .origin {
-  font-family: "Light-bold-75";
+  font-family: "Helvetica", sans-serif;
 }
 .origin img {
   filter: grayscale(100%);
