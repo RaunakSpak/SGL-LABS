@@ -553,4 +553,7 @@ footer .social-icons a:hover {
     margin: 10px auto !important;
     padding: 0;
   }
+  .nav-link::after {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
