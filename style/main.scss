@@ -66,9 +66,6 @@ p {
     font-family: 'Helvetica', sans-serif;
     @include font-size(xsmall);
 
-    &:hover {
-      color: $hover-color !important;
-    }
 
     &::after {
       content: "";

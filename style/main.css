@@ -46,9 +46,6 @@ p {
   font-family: "Helvetica", sans-serif;
   font-size: 12pt;
 }
-.navbar .nav-link:hover {
-  color: #ffcc00 !important;
-}
 .navbar .nav-link::after {
   content: "";
   position: absolute;
