@@ -1,7 +1,5 @@
 @import "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css";
 
-
-// Font Sizes
 $font-sizes: (xsmall: 12pt,
   small: 15pt,
   medium: 18pt,
@@ -10,12 +8,12 @@ $font-sizes: (xsmall: 12pt,
   xxlarge: 30pt,
   xxxlarge: 40pt);
 
-// Mixin for Font Size
+
 @mixin font-size($size) {
   font-size: map-get($font-sizes, $size);
 }
 
-// Colors
+
 $primary-color: #EF4724;
 $secondary-color: #7C3F98;
 $hover-color: #ffcc00;
@@ -40,7 +38,6 @@ p {
   font-family: 'Helvetica', sans-serif;
 }
 
-// Navbar
 .navbar {
   background: linear-gradient(to left, $primary-color, $secondary-color);
   padding: 12px 20px;
@@ -111,7 +108,6 @@ button, input, optgroup, select, textarea {
   line-height: inherit;
 }
 
-// Footer
 footer {
   background-color: #f2f2f2;
   padding: 40px 0;
@@ -274,19 +270,15 @@ footer {
   }
 }
 
-
-
 .form-control {
   padding: 0.75rem 16rem;
   box-shadow: 1px 1px 11px 0px rgba(0, 0, 0, 0.3);
   border-radius: 0;
 }
 
-
 .content {
   margin: 3rem 0 3rem 0;
 }
-
 
 .feature-section {
   background-color: #e9ecef;
@@ -342,7 +334,6 @@ footer {
   }
 }
 
-// Custom Navigation Buttons
 .custom-prev,
 .custom-next {
   position: absolute;
@@ -360,7 +351,6 @@ footer {
   right: 50px;
 }
 
-
 .carousel-text {
   position: absolute;
   bottom: 0;
@@ -373,7 +363,6 @@ footer {
   background: linear-gradient(to left, rgb(239, 71, 36), rgb(124, 63, 152));
 }
 
-
 .item {
   position: relative;
 
@@ -381,7 +370,6 @@ footer {
     width: 100%;
   }
 }
-
 
 .dia-screen {
 
@@ -431,9 +419,6 @@ footer {
   }
 }
 
-
-
-// about us
 .banner-section {
   padding: 0;
 
@@ -530,8 +515,6 @@ footer {
   }
 }
 
-
-// ecoassure page
 .education-section {
 
   .impact-card {
@@ -613,7 +596,6 @@ footer {
 
 }
 
-// originassure
 .about-us {
   .brochure {
     background: linear-gradient(to left, #E74C3C, #8E44AD);
