@@ -84,9 +84,20 @@ p {
     }
   }
 
-  .dropdown{
-    .dropdown-menu{
-      li{
+  .dropdown {
+    .dropdown-toggle::after {
+      display: inline-block;
+      margin-left: .255em;
+      vertical-align: .255em;
+      content: "";
+      border-top: none;
+      border-right: none;
+      border-bottom: 0;
+      border-left: none;
+    }
+
+    .dropdown-menu {
+      li {
         padding: 10px 0px;
       }
     }
@@ -701,7 +712,7 @@ footer {
     display: none;
   }
 
-  .navbar-brand img{
-    width: 140px; 
+  .navbar-brand img {
+    width: 140px;
   }
 }

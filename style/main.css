@@ -60,6 +60,16 @@ p {
 .navbar .nav-link:hover::after {
   transform: scaleX(1);
 }
+.navbar .dropdown .dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: none;
+  border-right: none;
+  border-bottom: 0;
+  border-left: none;
+}
 .navbar .dropdown .dropdown-menu li {
   padding: 10px 0px;
 }
