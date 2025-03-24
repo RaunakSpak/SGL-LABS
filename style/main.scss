@@ -84,6 +84,14 @@ p {
     }
   }
 
+  .dropdown{
+    .dropdown-menu{
+      li{
+        padding: 10px 0px;
+      }
+    }
+  }
+
   .navbar-toggler {
     border: none;
     outline: none;
@@ -694,6 +702,6 @@ footer {
   }
 
   .navbar-brand img{
-    width: 140px;
+    width: 140px; 
   }
 }

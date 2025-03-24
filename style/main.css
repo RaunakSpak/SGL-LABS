@@ -60,6 +60,9 @@ p {
 .navbar .nav-link:hover::after {
   transform: scaleX(1);
 }
+.navbar .dropdown .dropdown-menu li {
+  padding: 10px 0px;
+}
 .navbar .navbar-toggler {
   border: none;
   outline: none;
