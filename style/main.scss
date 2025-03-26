@@ -118,6 +118,20 @@ p {
   }
 }
 
+.nav-link.dropdown-toggle::before {
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-left: 8px;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-item.dropdown.show .nav-link.dropdown-toggle::after {
+  transform: rotate(180deg);
+}
+
+
 button,
 input,
 optgroup,
@@ -352,6 +366,25 @@ footer {
   p {
     font-size: 14px;
   }
+
+  a {
+    color: #000;
+    text-decoration: none;
+    position: relative;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 2px;
+      background: #000;
+      transition: width 0.3s;
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+    }
+
+  }
 }
 
 .custom-prev,
@@ -395,6 +428,25 @@ footer {
 
   .dia-screen-text {
     margin: auto;
+
+    a {
+      color: #000;
+      text-decoration: none;
+      position: relative;
+
+      &::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #000;
+        transition: width 0.3s;
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+      }
+
+    }
   }
 
   .dia-screen-img {
@@ -714,5 +766,13 @@ footer {
 
   .navbar-brand img {
     width: 140px;
+  }
+}
+
+
+// diamond-ledger
+.diamond-ledger-section {
+  p {
+    margin: 40px 0px;
   }
 }
