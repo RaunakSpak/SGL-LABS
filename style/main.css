@@ -667,4 +667,14 @@ footer .social-icons a:hover {
 }
 .feature-section .feature-boxs h5 {
   line-height: 2rem;
+}
+
+.dia-screen-feature {
+  margin-top: 2rem;
+}
+.dia-screen-feature .feature-box {
+  margin: 5rem 0rem;
+}
+.dia-screen-feature .feature-box h5 {
+  margin: 2rem;
 }/*# sourceMappingURL=main.css.map */
