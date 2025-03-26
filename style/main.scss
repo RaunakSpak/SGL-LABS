@@ -684,15 +684,20 @@ footer {
 
 .dia-screen {
   .dia-screen-text {
-    .brochure {
-      background: linear-gradient(to left, #E74C3C, #8E44AD);
-      padding: 10px;
-      color: white;
-      text-decoration: none;
+    .brochure-section {
+      .brochure {
+        background: linear-gradient(to left, #E74C3C, #8E44AD);
+        padding: 10px;
+        color: white;
+        text-decoration: none;
 
+        &::after {
+          background: none;
+        }
 
-      img {
-        margin-right: 10px;
+        img {
+          margin-right: 10px;
+        }
       }
     }
   }
@@ -774,5 +779,49 @@ footer {
 .diamond-ledger-section {
   p {
     margin: 40px 0px;
+  }
+}
+
+.diamond-text {
+  font-size: 25px;
+}
+
+// dia-screen
+.owl-carousel .carousel-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  padding: 20px;
+}
+
+.owl-carousel img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.brochure-download {
+  margin: 30px 0px;
+
+  .brochure {
+    background: linear-gradient(to left, #E74C3C, #8E44AD);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+
+    img {
+      margin-right: 5px;
+    }
+  }
+}
+
+.feature-section {
+  .feature-boxs {
+    margin-top: 2rem;
+
+    h5 {
+
+      line-height: 2rem;
+    }
   }
 }

@@ -560,13 +560,16 @@ footer .social-icons a:hover {
   margin-right: 10px;
 }
 
-.dia-screen .dia-screen-text .brochure {
+.dia-screen .dia-screen-text .brochure-section .brochure {
   background: linear-gradient(to left, #E74C3C, #8E44AD);
   padding: 10px;
   color: white;
   text-decoration: none;
 }
-.dia-screen .dia-screen-text .brochure img {
+.dia-screen .dia-screen-text .brochure-section .brochure::after {
+  background: none;
+}
+.dia-screen .dia-screen-text .brochure-section .brochure img {
   margin-right: 10px;
 }
 
@@ -626,4 +629,42 @@ footer .social-icons a:hover {
 }
 .diamond-ledger-section p {
   margin: 40px 0px;
+}
+
+.diamond-text {
+  font-size: 25px;
+}
+
+.owl-carousel .carousel-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  padding: 20px;
+}
+
+.owl-carousel img {
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.brochure-download {
+  margin: 30px 0px;
+}
+.brochure-download .brochure {
+  background: linear-gradient(to left, #E74C3C, #8E44AD);
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.brochure-download .brochure img {
+  margin-right: 5px;
+}
+
+.feature-section .feature-boxs {
+  margin-top: 2rem;
+}
+.feature-section .feature-boxs h5 {
+  line-height: 2rem;
 }/*# sourceMappingURL=main.css.map */
