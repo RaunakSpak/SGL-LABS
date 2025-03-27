@@ -947,7 +947,7 @@ footer {
 .inquiry-form {
   padding: 40px 0;
 
-  .container-fluid{
+  .container-fluid {
     padding: 0;
   }
 
@@ -983,11 +983,67 @@ footer {
       border-radius: 20px;
       font-size: 16px;
       cursor: pointer;
-      display:  flex;
+      display: flex;
       margin-top: 2rem;
+
       span {
         margin-left: 8px;
       }
+    }
+  }
+}
+
+
+.course-card {
+  background: #fff;
+  overflow: hidden;
+  border: 1px solid #414040;
+  max-width: 370px;
+
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #001f3f;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    font-size: 1.5rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  .btn {
+    background-color: #001f3f;
+    border: none;
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: background 0.3s;
+
+    &:hover {
+      background-color: #003366;
     }
   }
 }
