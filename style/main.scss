@@ -247,7 +247,7 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin-top: -13px;
+  margin-top: -3rem;
   z-index: 1;
   position: relative;
 }
@@ -717,6 +717,7 @@ footer {
         padding: 10px;
         color: white;
         text-decoration: none;
+        position: initial;
 
         &::after {
           background: none;

@@ -197,7 +197,7 @@ footer .social-icons a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin-top: -13px;
+  margin-top: -3rem;
   z-index: 1;
   position: relative;
 }
@@ -578,6 +578,7 @@ footer .social-icons a:hover {
   padding: 10px;
   color: white;
   text-decoration: none;
+  position: initial;
 }
 .dia-screen .dia-screen-text .brochure-section .brochure::after {
   background: none;
