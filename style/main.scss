@@ -977,6 +977,12 @@ footer {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
+
+    p{
+      strong{
+        font-size: 20px;
+      }
+    }
   }
 
   .form-container {
@@ -1018,16 +1024,19 @@ footer {
   background: #fff;
   overflow: hidden;
   border: 1px solid #807b7b81;
-  max-width: 370px;
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.2);
+  
 
   &:hover {
     border: 1px solid #2c2a2a;
   }
 
   .card-img-top {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 200px;
-    object-fit: cover;
   }
 
   .card-body {
@@ -1045,6 +1054,7 @@ footer {
     border-radius: 50%;
     margin: 0 auto 10px;
     font-size: 1.5rem;
+    margin-top: -15%;
   }
 
   .card-title {
@@ -1089,7 +1099,7 @@ footer {
   color: white;
 
   .banner-text {
-    font-size: 22px;
+    font-size: 22px !important;
 
     .learn-more {
       color: white;
@@ -1164,3 +1174,4 @@ footer {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   }
 }
+
