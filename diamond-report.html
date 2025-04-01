@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGL-Labs</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/7fce4b5f90.js" crossorigin="anonymous"></script>
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/SGL-Blue-Logo.png" alt="SGL Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://sglcertified.com">Buy Diamonds</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            report and services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Diamond Reports</a></li>
+                            <li><a class="dropdown-item" href="#">lab grown diamond reports</a></li>
+                            <li><a class="dropdown-item" href="#">jewelry reports</a></li>
+                            <li><a class="dropdown-item" href="#">lab grown jewelry reports</a></li>
+                            <li><a class="dropdown-item" href="#">gemstone reports</a></li>
+                            <li><a class="dropdown-item" href="#">triple shield</a></li>
+                            <li><a class="dropdown-item" href="#">ecoassure™</a></li>
+                            <li><a class="dropdown-item" href="#">originassure™</a></li>
+                            <li><a class="dropdown-item" href="#">blockchain enabled report</a></li>
+                            <li><a class="dropdown-item" href="#">Additional services</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item"><a class="nav-link" href="dia-screen.html">dia screen</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center justify-content-between" href="#"
+                            id="educationDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Education
+                            <span class="ms-2"><i class="bi bi-chevron-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="educationDropdown">
+                            <li><a class="dropdown-item" href="education.html">introduction</a></li>
+                            <li><a class="dropdown-item" href="#">courses</a></li>
+                            <li><a class="dropdown-item" href="#">course calender</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container-fluid banner-section">
+        <img src="./images/about/banner.png" alt="About Us Banner" class="img-fluid">
+    </div>
+
+
+    <div class="container text-center">
+        <h2 class="section-title">DIAMOND CERTIFICATE</h2>
+
+        <!-- Category Tabs -->
+        <div class="row justify-content-center">
+            <div class="col-md-2 col-6 category-btns">
+                <button class="category-btn active" onclick="showCategory('diamond')">diamond <br>reports</button>
+            </div>
+            <div class="col-md-2 col-6 category-btns">
+                <button class="category-btn" onclick="showCategory('lab-grown')">lab grown diamond reports</button>
+            </div>
+            <div class="col-md-2 col-6 category-btns">
+                <button class="category-btn" onclick="showCategory('jewellery')">jewellery <br>reports</button>
+            </div>
+            <div class="col-md-2 col-6 category-btns">
+                <button class="category-btn" onclick="showCategory('lab-jewellery')">lab grown jewellery
+                    reports</button>
+            </div>
+            <div class="col-md-2 col-6 category-btns">
+                <button class="category-btn" onclick="showCategory('gemstone')">gemstone <br>reports</button>
+            </div>
+        </div>
+
+        <!-- Reports Section -->
+        <div class="row justify-content-center mt-4">
+            <!-- daimond-report -->
+            <div class="col-md-3 col-sm-6 text-center category-content diamond">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/NATURAL-DIAMOND-REPORT-260X109.png"
+                    class="img-fluid report-img" alt="Natural Diamond Report">
+                <p class="report-title">natural diamond report</p>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center category-content diamond">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/NATURAL-DIAMOND-MINI-REPORT-WITH-PLOT-3.png"
+                    class="img-fluid report-img" alt="Diamond Mini Report">
+                <p class="report-title">natural diamond mini report with plot</p>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center category-content diamond">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/NATURAL-DIAMOND-MINI-REPORT-WITH-PROPORTIONS-PNG.png"
+                    class="img-fluid report-img" alt="Mini Report with Proportions">
+                <p class="report-title">natural diamond mini report with proportions</p>
+            </div>
+
+            <!-- lab grown daimond report -->
+            <div class="col-md-3 col-sm-6 text-center category-content lab-grown d-none">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/LAB-GROWN-DIAMOND-REPORT-4000X2000.png"
+                    class="img-fluid report-img" alt="Lab Grown Report">
+                <p class="report-title">Lab Grown Diamond Report</p>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center category-content lab-grown d-none">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/LAB-GROWN-DIAMOND-MINI-REPORT-WITH-PLOT-4000X2000.png"
+                    class="img-fluid report-img" alt="Lab Grown Mini Report">
+                <p class="report-title">Lab Grown Diamond Mini Report with plot</p>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center category-content lab-grown d-none">
+                <img src="https://sgl-labs.com/wp-content/uploads/2023/08/LAB-GROWN-DIAMOND-MINI-REPORT-WITH-PROPORTIONS-4000X2000-min.png"
+                    class="img-fluid report-img" alt="Lab Grown Mini Report">
+                <p class="report-title">Lab Grown Diamond Mini Report with proportions</p>
+            </div>
+
+            <!-- jeweellery report -->
+            <div class="col-md-3 col-sm-6 text-center category-content jewellery d-none">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/NATURAL-SOLITAIRE-DIAMOND-JEWELRY-REPORT-4000X2000.png"
+                    class="img-fluid report-img" alt="Jewellery Report">
+                <p class="report-title">Natural Solitaire Diamond JEWELLERY Report</p>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center category-content jewellery d-none">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/NATURAL-DIAMOND-JEWELRY-REPORT-4000X2000.png"
+                    class="img-fluid report-img" alt="Jewellery Report">
+                <p class="report-title">Natural Diamond JEWELLERY Report</p>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center category-content jewellery d-none">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/NATURAL-DIAMOND-AND-COLORED-GEMSTONE-JEWELRY-REPORT-4000X2000-1.png"
+                    class="img-fluid report-img" alt="Jewellery Report">
+                <p class="report-title">Natural Diamond and Colored Gemstone JEWELLERY Report</p>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center category-content jewellery d-none">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/ROSECUT-UNCUT-OR-POLKI-DIAMOND-JEWELRY-REPORT-4000X2000.png"
+                    class="img-fluid report-img" alt="Jewellery Report">
+                <p class="report-title">Rosecut, Uncut or Polki Diamond JEWELLERY Report</p>
+            </div>
+
+            <!-- lab grown jewellary report -->
+            <div class="col-md-3 col-sm-6 text-center category-content lab-jewellery d-none">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/LAB-GROWN-SOLITAIRE-DIAMOND-JEWELRY-REPORT-4000X2000.png"
+                    class="img-fluid report-img" alt="Lab Grown Jewellery Report">
+                <p class="report-title">Lab Grown Solitaire Diamond JEWELLERY Report</p>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center category-content lab-jewellery d-none">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/LAB-GROWN-DIAMOND-JEWELRY-REPORT-4000X2000.png"
+                    class="img-fluid report-img" alt="Lab Grown Jewellery Report">
+                <p class="report-title">Lab Grown Diamond JEWELLERY Report</p>
+            </div>
+
+            <!-- GEMSTONE REPORTS -->
+            <div class="col-md-3 col-sm-6 text-center category-content gemstone d-none">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/COLORED-GEMSTONE-REPORT.png"
+                    class="img-fluid report-img" alt="Gemstone Report">
+                <p class="report-title">Colored Gemstone Report</p>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center category-content gemstone d-none">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/COLORED-GEMSTONE-JEWELRY-REPORT-4000X2000.png"
+                    class="img-fluid report-img" alt="Gemstone Report">
+                <p class="report-title">Colored Gemstone JEWELLERY Report</p>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center category-content gemstone d-none">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/NATURAL-DIAMOND-AND-COLORED-GEMSTONE-JEWELRY-REPORT-4000X2000.png"
+                    class="img-fluid report-img" alt="Gemstone Report">
+                <p class="report-title">Natural Diamond and Colored Gemstone JEWELLERY Report</p>
+            </div>
+        </div>
+
+        <!-- Enquire Button -->
+        <div class="text-center m-4">
+            <button class="enquire-btn">ENQUIRE NOW</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <p>SGL Labs is a leading diamond certification lab that offers state-of-the-art diamond identification and
+            grading services. We use the latest technology from around the world to make this possible and create
+            flawless and accurate diamond reports. Our network of 18 laboratories helps us service the key diamond
+            trading centers of London, New York, Dubai and Mumbai.</p>
+        <p>Our diamond reports contain the analytical result of the diamond 4Cs, the process of origin (natural or
+            synthetic), the plotting diagram of the diamond’s physical characteristics (internal and external) and a
+            graphical representation of its proportions. </p>
+        <p>This diamond certificate also provides additional information about the proportions of a diamond in detail
+            along with the polish grade, symmetry grade, and proportions grade (only for standard round brilliant cuts)
+            for the diamond.</p>
+    </div>
+
+    <img src="https://sgl-labs.com/wp-content/uploads/2021/07/SGL-CERTIFICATION-1600-X-800-1.png" alt=""
+        class="img-fluid">
+
+    <div class="container text-center">
+        <h2>Security Features of our Diamond Reports</h2>
+        <p>Peace of mind, assured is not a motto for SGL, it’s an ethos! We believe that trust and reliability are
+            essential factors when it comes down to providing peace of mind. </p>
+        <p>Every diamond certificate issued from our end is safeguarded and secured with various layers of protection,
+            setting higher benchmarks for fair trade and professionalism. </p>
+
+        <div class="row ">
+            <div class="col-md-3 col-sm-6 text-center">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/HOLOGRAM-300-x-300-PIXEL-1.png"
+                    class="Hologram" alt="Image 1">
+                <p>Hologram</p>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/QR-Code-1.png" class="Hologram" alt="Image 2">
+                <p>QR Code</p>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/UV-Micro-text.png" class="Hologram"
+                    alt="Image 3">
+                <p>UV & Micro text</p>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <img src="https://sgl-labs.com/wp-content/uploads/2021/07/Safety-Paper-1.png" class="Hologram"
+                    alt="Image 4">
+                <p>Security Paper</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="lab-policy py-4">
+        <div class="container">
+            <h2 class="text-center mb-4">Lab Policy</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <h5 class="policy-title">Access to Data</h5>
+                    <p>Our diamond reports are freely available to view, verify and download. We make sure that all
+                        these diamond grading certificates are maintained systematically and can be presented on demand
+                        as a right to consumer perusal limited to the certificate.</p>
+                </div>
+                <div class="col-md-5">
+                    <h5 class="policy-title">Confidence</h5>
+                    <p>Providing professional diamond identification and grading services backed with the latest
+                        technology, SGL is at the front end of the laboratory-grown diamond detection scenario. SGL’s
+                        specialized services and laboratory-grown detection instruments help in the easy identification
+                        of natural diamonds.</p>
+                </div>
+                <div class="col-md-5">
+                    <h5 class="policy-title">Security Features</h5>
+                    <p>UV text visible under UV/Blacklight, Secured 3D holograms and special paper make the SGL's
+                        diamond certificate a document that cannot be tampered with or easily duplicated. The diamond
+                        sealing also displays many tamper-evident features to provide peace of mind.</p>
+                </div>
+                <div class="col-md-5">
+                    <h5 class="policy-title">Client Anonymity</h5>
+                    <p>At SGL, we go above and beyond to ensure our clients' confidentiality and anonymity. We follow a
+                        system of barcodes and software modules to ensure the grading and processing of diamonds and
+                        their certificates are undertaken without any knowledge of the client details.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="additional-services py-5">
+        <div class="container">
+            <h2 class="text-center mb-3">ADDITIONAL SERVICES</h2>
+            <p class="text-center">
+                We provide unique additional services as per the consumer demands; tailored for your needs to add value
+                to your diamond.
+                <br>For further information, <a href="#">contact</a> your nearest SGL Branch.
+            </p>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-md-3">
+                    <div class="course-card">
+                        <img src="https://sgl-labs.com/wp-content/uploads/2021/07/Advanced-Gemstone-Charter-1.png"
+                            alt="Advanced Gemstone Charter" class="card-img-top">
+                        <div class="card-body text-center">
+                            <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+                            <h5 class="card-title">Qualified Diamond Specialist</h5>
+                            <p class="card-text">This course offers expertise and knowledge<br> to a gem enthusiast and
+                                enables
+                                them to <br>identify, grade and value gemstones.</p>
+                            <a href="#" class="btn btn-primary">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-3">
+                    <div class="course-card">
+                        <img src="https://sgl-labs.com/wp-content/uploads/2021/07/Advanced-Diamond-Charter-1.png"
+                            alt="Advanced Diamond Charter" class="card-img-top">
+                        <div class="card-body text-center">
+                            <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+                            <h5 class="card-title">Qualified JEWELLERY Specialist</h5>
+                            <p class="card-text">Learn about diamonds in detail and develop expertise in detecting,
+                                assessing, and understanding the art of diamond examination.</p>
+                            <a href="#" class="btn btn-primary">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-3">
+                    <div class="course-card">
+                        <img src="https://sgl-labs.com/wp-content/uploads/2021/07/Coloured-Gemstone-Professional-1.png"
+                            alt="Colored Gemstone Specialist" class="card-img-top">
+                        <div class="card-body text-center">
+                            <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+                            <h5 class="card-title">Retail Product<br> Management</h5>
+                            <p class="card-text">An expertise and knowledge for gem enthusiasts and enables them to
+                                identify, grade, and value gemstones based on international standards.</p>
+                            <a href="#" class="btn btn-primary">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <div class="container my-5">
+        <h2>Frequently Asked Questions (FAQs)</h2>
+        <div class="accordion" id="customAccordion">
+            <!-- Accordion Items -->
+            <div class="accordion-item" id="accordion1">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne">
+                        What is diamond certification?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#customAccordion">
+                    <div class="accordion-body">
+                        Diamond certification is a process by which a diamond is evaluated and judged for its quality.
+                        This is done by checking the diamond’s 4Cs – Cut, Carat weight, Clarity, and Color. The diamond
+                        must pass several tests, including being cut and polished to the highest standards, and showing
+                        no signs of blemishes or inclusions. Diamond grading reports assure the buyer about the
+                        authenticity of the JEWELLERY piece or loose diamond he’s purchasing.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item" id="accordion2">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo">
+                        How do I clarify my diamonds?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#customAccordion">
+                    <div class="accordion-body">
+                        You can contact the nearest SGL Lab branch to get your diamonds certified. We have a network of
+                        18 labs across the globe in key cities such as London, New York, Mumbai, Dubai and many more.
+                        You can also ask your jeweller to procure an SGL certificate for a diamond piece that you are
+                        planning to purchase.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item" id="accordion3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree">
+                        What types of diamonds can be certified?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#customAccordion">
+                    <div class="accordion-body">
+                        All types of diamonds in the JEWELLERY industry can be certified using diamond grading services.
+                        This includes color diamond, natural diamond and lab diamonds. A diamond report includes clarity
+                        grades, color grades, carat weight, nature of origin, etc.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item" id="accordion4">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour">
+                        which certification is best for diamonds?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#customAccordion">
+                    <div class="accordion-body">
+                        While selecting a diamond certification partner, It is essential to select a well-established
+                        and respected gemological laboratory. SGL is a leading choice for diamond certification around
+                        the world. We are widely recognized in the industry for our accurate and reliable assessments.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item" id="accordion5">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive">
+                        Is SGL certificate valid ?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#customAccordion">
+                    <div class="accordion-body">
+                        Yes, SGL diamond certificates are valid and recognized worldwide. Our diamond reports provide
+                        detailed characteristics of a diamond. SGL’s diamond certificates enable you to make informed
+                        purchasing decisions and ensure the authenticity and quality of the diamond.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item" id="accordion6">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix">
+                        Do diamond certifications matter?
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#customAccordion">
+                    <div class="accordion-body">
+                        Diamond certifications do matter significantly. They provide essential details about a diamond’s
+                        attributes. SGL’s diamond Certificates help establish the diamond’s value, quality, and
+                        authenticity, making it easier to compare and verify the diamond’s characteristics.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item" id="accordion7">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSeven">
+                        Is it okay to buy a diamond without a certificate?
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#customAccordion">
+                    <div class="accordion-body">
+                        It is generally not advised to buy a diamond without a valid certificate, as there is no other
+                        way to be sure of the origin, characteristics, and origin of the diamond. You should get your
+                        diamonds tested from a reputed diamond certification lab like SGL, to be sure that you know
+                        exactly what you are purchasing.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item" id="accordion8">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseEight">
+                       How do I get a diamond certificate?
+                    </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#customAccordion">
+                    <div class="accordion-body">
+                        You can obtain a diamond certificate through your jeweler or the seller when you purchase a
+                        diamond. Simply request a certified diamond, and they should provide you with a certificate from
+                        a reputable gemological laboratory like SGL. This document will contain detailed information
+                        about your diamond’s characteristics, ensuring transparency and authenticity in your purchase.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- Logo & Contact Info -->
+                <div class="col-md-4">
+                    <img src="./images/sgl.png" alt="SGL Logo" class="footer-logo">
+                    <p class="contact-info">
+                        <img src="./images/footer-icon/location.png" alt="">
+                        <span> Suite 49, 88/90 Hatton Garden, London, EC1N 8PN, United
+                            Kingdom. </span> <br>
+                        <img src="./images/footer-icon/phone.png" alt="">
+                        <span> +44 7551 415079 </span><br>
+                        <img src="./images/footer-icon/email.png" alt="">
+                        <span>Click <a href="#">here</a> for our international presence.</span>
+                    </p>
+
+                </div>
+
+                <!-- About -->
+                <div class="col-md-4">
+                    <p>SGL is a global leader in diamond certification and grading, serving the gems and jewellery
+                        industry with integrity and precision. Our reports are backed by the latest science,
+                        state-of-the-art equipment and rigorous quality standards, ensuring accuracy and trust in every
+                        evaluation.</p>
+                </div>
+
+                <!-- Links -->
+                <div class="col-md-2">
+                    <ul class="footer-links">
+                        <li><a href="#">Diamond Reports</a></li>
+                        <li><a href="#">Lab Grown Diamond Reports</a></li>
+                        <li><a href="#">Jewellery Reports</a></li>
+                        <li><a href="#">Gemstone Reports</a></li>
+                        <li><a href="#">Triple Shield</a></li>
+                        <li><a href="#">Ecoassure</a></li>
+                        <li><a href="#">Originassure</a></li>
+                        <li><a href="#">Diamond Ledger</a></li>
+                    </ul>
+                </div>
+
+                <!-- More Links & Socials -->
+                <div class="col-md-2">
+                    <ul class="footer-links">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="#"><img src="./images/footer-icon/facebook.png" alt=""></a>
+                        <a href="#"><img src="./images/footer-icon/instagram.png" alt=""></a>
+                        <a href="#"><img src="./images/footer-icon/twitter.png" alt=""></a>
+                        <a href="#"><img src="./images/footer-icon/linkedin.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <div class="copyright">
+        <div class="comtainer">
+            &copy; 2025 SGL Labs is a company registered in England and Wales with number 7283420.
+        </div>
+    </div>
+
+
+
+    <!-- jQuery and Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+        function showCategory(category) {
+            document.querySelectorAll('.category-content').forEach(el => {
+                el.classList.add('d-none');
+            });
+            document.querySelectorAll('.' + category).forEach(el => {
+                el.classList.remove('d-none');
+            });
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+
+    </script>
+
+    <!-- <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let buttons = document.querySelectorAll(".accordion-button");
+
+            buttons.forEach(button => {
+                button.addEventListener("click", function () {
+                    let icon = this.querySelector(".icon");
+                    let isExpanded = this.classList.contains("collapsed");
+
+                    document.querySelectorAll(".icon").forEach(i => i.textContent = "+");
+
+                    if (isExpanded) {
+                        icon.textContent = "-";
+                    } else {
+                        icon.textContent = "+";
+                    }
+                });
+            });
+        });
+
+    </script> -->
+
+</body>
+
+</html>

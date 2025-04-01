@@ -11,8 +11,6 @@ html {
 
 body {
   font-family: "Helvetica", sans-serif;
-  border-left: 1px solid #7C3F98;
-  border-right: 1px solid #EF4724;
   max-width: 1440px;
   margin: auto;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -293,18 +291,9 @@ footer .social-icons a:hover {
 .feature-section .feature-box a {
   text-decoration: none;
   color: #000;
-  position: relative;
-}
-.feature-section .feature-box a::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 2px;
-  background: #000;
-  transition: width 0.3s;
-  position: absolute;
-  bottom: -2px;
-  left: 0;
+  border: 1px solid #1e3a78;
+  border-radius: 12px;
+  padding: 6px 15px;
 }
 .feature-section .feature-box:hover img {
   transform: scale(1.1);
@@ -313,21 +302,12 @@ footer .social-icons a:hover {
 .education-section p {
   font-size: 14px;
 }
-.education-section a {
-  color: #000;
+.education-section p a {
   text-decoration: none;
-  position: relative;
-}
-.education-section a::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 2px;
-  background: #000;
-  transition: width 0.3s;
-  position: absolute;
-  bottom: -2px;
-  left: 0;
+  color: #000;
+  border: 1px solid #1e3a78;
+  border-radius: 12px;
+  padding: 6px 15px;
 }
 
 .custom-prev,
@@ -367,20 +347,11 @@ footer .social-icons a:hover {
 }
 
 .dia-screen .dia-screen-text a {
-  color: #000;
   text-decoration: none;
-  position: relative;
-}
-.dia-screen .dia-screen-text a::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 2px;
-  background: #000;
-  transition: width 0.3s;
-  position: absolute;
-  bottom: -2px;
-  left: 0;
+  color: #000;
+  border: 1px solid #1e3a78;
+  border-radius: 12px;
+  padding: 6px 15px;
 }
 .dia-screen .dia-screen-img {
   padding: 20px;
@@ -958,4 +929,106 @@ footer .social-icons a:hover {
   max-width: 100%;
   height: auto;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.category-btns {
+  padding: 0;
+  margin-right: 2px;
+}
+
+.category-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  background: #E5E5E5;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+.category-btn.active {
+  background: #BEBEBE;
+}
+.category-btn:hover {
+  background: #D3D3D3;
+}
+
+.report-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.report-title {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.enquire-btn {
+  background: linear-gradient(to left, #E74C3C, #8E44AD);
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.Hologram {
+  width: 150px;
+  transition: transform 0.3s ease-in-out;
+}
+.Hologram:hover {
+  transform: scale(1.1);
+}
+
+.lab-policy {
+  background: #E6E7E7;
+}
+
+.accordion .accordion-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+.accordion .accordion-item .accordion-header .accordion-button {
+  background-color: #f8f9fa;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  padding: 12px 16px;
+  transition: background-color 0.3s;
+}
+.accordion .accordion-item .accordion-header .accordion-button:focus {
+  box-shadow: none;
+}
+.accordion .accordion-item .accordion-header .accordion-button .icon {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: auto;
+}
+.accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  background: linear-gradient(to left, #E74C3C, #8E44AD);
+  color: #fff;
+}
+.accordion .accordion-item .accordion-body {
+  background: white;
+  padding: 15px;
+  font-size: 14px;
+  color: #555;
 }/*# sourceMappingURL=main.css.map */
