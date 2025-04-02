@@ -1062,4 +1062,12 @@ footer .social-icons a:hover {
 
 .image-container:hover .overlay {
   bottom: 0;
+}
+
+.feature-box img {
+  width: 100px;
+  transition: all 0.3s ease-in-out;
+}
+.feature-box img:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=main.css.map */
