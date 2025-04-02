@@ -229,7 +229,6 @@ footer .social-icons a:hover {
 }
 
 .header-text {
-  font-style: italic;
   text-align: center;
 }
 
@@ -987,7 +986,7 @@ footer .social-icons a:hover {
 }
 
 .Hologram {
-  width: 150px;
+  width: 100px;
   transition: transform 0.3s ease-in-out;
 }
 .Hologram:hover {
@@ -1032,4 +1031,35 @@ footer .social-icons a:hover {
   padding: 15px;
   font-size: 14px;
   color: #555;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: bottom 0.5s ease-in-out;
+  flex-flow: column;
+  text-align: center;
+  padding: 12px 12px;
+}
+
+.image-container:hover .overlay {
+  bottom: 0;
 }/*# sourceMappingURL=main.css.map */
