@@ -73,7 +73,8 @@ a {
     transition: all 0.3s ease-in-out;
     position: relative;
     font-family: 'Helvetica', sans-serif;
-    font-size: 16px !important;
+    font-size: 17px !important;
+    font-weight: bold;
 
 
     &::after {
@@ -81,7 +82,7 @@ a {
       position: absolute;
       width: 100%;
       height: 2px;
-      background: $hover-color;
+      background: #ffffff;
       left: 0;
       bottom: 5px;
       transform: scaleX(0);
