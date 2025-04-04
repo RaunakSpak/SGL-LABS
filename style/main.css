@@ -119,9 +119,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: initial;
-  font-size: inherit;
-  line-height: inherit;
+  font-family: "Helvetica", sans-serif;
 }
 
 footer {
@@ -192,7 +190,7 @@ footer .social-icons a:hover {
 
 .verification-section {
   background-color: #E6E7E7;
-  padding: 22px 0 24px;
+  padding: 22px 0 22px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -233,6 +231,7 @@ footer .social-icons a:hover {
 
 .header-text {
   text-align: center;
+  font-weight: bold;
 }
 
 @keyframes rotateUpDown {
@@ -294,8 +293,12 @@ footer .social-icons a:hover {
   text-decoration: none;
   color: #000;
   border: 1px solid #1e3a78;
-  border-radius: 12px;
-  padding: 6px 15px;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+.feature-section .feature-box a:hover {
+  background-color: #000;
+  color: #fff;
 }
 .feature-section .feature-box:hover img {
   transform: scale(1.1);
@@ -308,8 +311,12 @@ footer .social-icons a:hover {
   text-decoration: none;
   color: #000;
   border: 1px solid #1e3a78;
-  border-radius: 12px;
-  padding: 6px 15px;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+.education-section p a:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .custom-prev,
@@ -352,8 +359,12 @@ footer .social-icons a:hover {
   text-decoration: none;
   color: #000;
   border: 1px solid #1e3a78;
-  border-radius: 12px;
-  padding: 6px 15px;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+.dia-screen .dia-screen-text a:hover {
+  background-color: #000;
+  color: #fff;
 }
 .dia-screen .dia-screen-img {
   padding: 20px;
@@ -636,10 +647,14 @@ footer .social-icons a:hover {
   padding: 20px;
 }
 
-.owl-carousel img {
-  width: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
+.owl-carousel .item {
+  overflow: hidden;
+}
+.owl-carousel .item img {
+  transition: transform 0.3s ease-in-out;
+}
+.owl-carousel .item:hover img {
+  transform: scale(1.05);
 }
 
 .brochure-download {
@@ -979,8 +994,6 @@ footer .social-icons a:hover {
   background: linear-gradient(to left, #E74C3C, #8E44AD);
   color: white;
   padding: 10px 20px;
-  font-weight: bold;
-  border-radius: 25px;
   border: none;
   cursor: pointer;
   transition: 0.3s;
@@ -1078,7 +1091,6 @@ footer .social-icons a:hover {
 }
 
 /* SCSS or regular CSS */
-/* SCSS or regular CSS */
 .dropdown-submenu {
   position: relative;
 }
@@ -1112,4 +1124,10 @@ footer .social-icons a:hover {
 .laser-inscription p {
   margin-top: 20px;
   text-align: justify;
+}
+
+.list-unstyled {
+  display: inline-block;
+  text-align: initial;
+  list-style: disc;
 }/*# sourceMappingURL=main.css.map */

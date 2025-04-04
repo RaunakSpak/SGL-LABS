@@ -153,9 +153,8 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: initial;
-  font-size: inherit;
-  line-height: inherit;
+  font-family: 'Helvetica', sans-serif;
+  
 }
 
 footer {
@@ -241,7 +240,7 @@ footer {
 
 .verification-section {
   background-color: #E6E7E7;
-  padding: 22px 0 24px;
+  padding: 22px 0 22px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -282,6 +281,7 @@ footer {
 
 .header-text {
   text-align: center;
+  font-weight: bold;
 }
 
 // .header-text::before {
@@ -363,8 +363,13 @@ footer {
       text-decoration: none;
       color: #000;
       border: 1px solid #1e3a78;
-      border-radius: 12px;
-      padding: 6px 15px;
+      padding: 10px 20px;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        background-color: #000;
+        color: #fff;
+      }
     }
 
 
@@ -382,9 +387,13 @@ footer {
       text-decoration: none;
       color: #000;
       border: 1px solid #1e3a78;
-      border-radius: 12px;
-      padding: 6px 15px;
+      padding: 10px 20px;
+      transition: all 0.3s ease-in-out;
 
+      &:hover {
+        background-color: #000;
+        color: #fff;
+      }
     }
   }
 
@@ -436,8 +445,13 @@ footer {
       text-decoration: none;
       color: #000;
       border: 1px solid #1e3a78;
-      border-radius: 12px;
-      padding: 6px 15px;
+      padding: 10px 20px;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        background-color: #000;
+        color: #fff;
+      }
     }
   }
 
@@ -799,9 +813,18 @@ footer {
   padding: 20px;
 }
 
-.owl-carousel img {
-  width: 50%;
-  object-fit: cover;
+.owl-carousel {
+  .item {
+    overflow: hidden;
+
+    img {
+      transition: transform 0.3s ease-in-out;
+    }
+
+    &:hover img {
+      transform: scale(1.05);
+    }
+  }
 }
 
 .brochure-download {
@@ -1206,8 +1229,6 @@ footer {
   background: linear-gradient(to left, #E74C3C, #8E44AD);
   color: white;
   padding: 10px 20px;
-  font-weight: bold;
-  border-radius: 25px;
   border: none;
   cursor: pointer;
   transition: 0.3s;
@@ -1319,7 +1340,6 @@ footer {
 }
 
 /* SCSS or regular CSS */
-/* SCSS or regular CSS */
 .dropdown-submenu {
   position: relative;
 
@@ -1361,4 +1381,10 @@ footer {
     margin-top: 20px;
     text-align: justify;
   }
+}
+
+.list-unstyled{
+  display: inline-block;
+  text-align: initial;
+  list-style: disc;
 }
