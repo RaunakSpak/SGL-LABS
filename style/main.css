@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css";
 * {
   margin: 0;
@@ -198,10 +199,11 @@ footer .social-icons a:hover {
   margin-top: -3rem;
   z-index: 1;
   position: relative;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .verify-btn {
-  background-color: #1e3a78;
+  background: linear-gradient(to left, #E74C3C, #8E44AD);
   color: #fff;
   border: none;
   padding: 9px 53px;
@@ -218,7 +220,7 @@ footer .social-icons a:hover {
 
 .input-box {
   flex: 1;
-  max-width: 300px;
+  font-family: Helvetica, sans-serif;
 }
 
 .info-text {
@@ -254,7 +256,7 @@ footer .social-icons a:hover {
   }
 }
 .form-control {
-  padding: 0.75rem 2rem;
+  padding: 0.75rem 6rem;
   box-shadow: 1px 1px 11px 0px rgba(0, 0, 0, 0.3);
   border-radius: 0;
 }
@@ -549,6 +551,8 @@ footer .social-icons a:hover {
   color: white;
   text-decoration: none;
   position: initial;
+  border: none;
+  border-radius: 0px;
 }
 .dia-screen .dia-screen-text .brochure-section .brochure::after {
   background: none;
@@ -1070,4 +1074,41 @@ footer .social-icons a:hover {
 }
 .feature-box img:hover {
   transform: scale(1.1);
+}
+
+/* SCSS or regular CSS */
+/* SCSS or regular CSS */
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+  top: 0;
+  left: 100%;
+  margin-top: 0;
+}
+.dropdown-submenu > .dropdown-toggle::after {
+  content: " ▸";
+  float: right;
+  margin-left: 0.5rem;
+}
+.dropdown-submenu > .dropdown-menu {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  left: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.hearts-arrows p {
+  margin-top: 20px;
+}
+
+.laser-inscription .laser-para {
+  padding: 0 8rem 0;
+}
+.laser-inscription p {
+  margin-top: 20px;
+  text-align: justify;
 }/*# sourceMappingURL=main.css.map */
