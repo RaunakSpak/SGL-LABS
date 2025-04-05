@@ -87,7 +87,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "HelveticaNeueRoman", sans-serif;
+  font-family: "HelveticaNeueBold", sans-serif;
 }
 
 p,
@@ -271,7 +271,7 @@ footer .social-icons a:hover {
   background: linear-gradient(to left, #E74C3C, #8E44AD);
   color: #fff;
   border: none;
-  padding: 9px 53px;
+  padding: 12px 53px;
   font-weight: 600;
   border-radius: 0;
   margin: 0 4rem 0 10px;
@@ -281,6 +281,16 @@ footer .social-icons a:hover {
 .verify-btn:hover {
   background-color: #162d5f;
   color: white;
+}
+
+.form-control::-moz-placeholder {
+  color: rgba(168, 171, 174, 0.75);
+  opacity: 1;
+}
+
+.form-control::placeholder {
+  color: rgba(168, 171, 174, 0.75);
+  opacity: 1;
 }
 
 .input-box {
@@ -492,10 +502,10 @@ footer .social-icons a:hover {
   width: 100px;
 }
 .about-us .about-item .icon img {
-  width: 75px;
+  width: 65px;
 }
 .about-us .about-item h2 {
-  font-size: 25px;
+  font-size: 1.25rem;
 }
 .about-us .about-item p {
   color: #666;
@@ -531,7 +541,6 @@ footer .social-icons a:hover {
 .house-section .house-card .text-container h5 {
   color: #fff;
   font-size: 16px;
-  font-weight: 800;
   text-transform: uppercase;
 }
 .house-section .house-card .text-container p {
@@ -778,7 +787,6 @@ footer .social-icons a:hover {
   text-decoration: none;
   color: white;
   margin-top: 10px;
-  border-radius: 50px;
 }
 .dia-feature-section .image-container {
   display: flex;
@@ -839,7 +847,6 @@ footer .social-icons a:hover {
   color: white;
   border: none;
   padding: 10px 20px;
-  border-radius: 20px;
   font-size: 16px;
   cursor: pointer;
 }
@@ -883,7 +890,6 @@ footer .social-icons a:hover {
   color: white;
   border: none;
   padding: 10px 30px;
-  border-radius: 20px;
   font-size: 16px;
   cursor: pointer;
   display: flex;
@@ -940,10 +946,10 @@ footer .social-icons a:hover {
   border: none;
   font-size: 0.9rem;
   padding: 8px 15px;
-  border-radius: 20px;
+  border-radius: 0px;
   transition: background 0.3s;
   position: absolute;
-  margin-left: -4rem;
+  margin-left: -3rem;
 }
 
 .gallery-title {
@@ -1129,6 +1135,7 @@ footer .social-icons a:hover {
 .image-container img {
   width: 100%;
   display: block;
+  width: 325px;
 }
 
 .overlay {

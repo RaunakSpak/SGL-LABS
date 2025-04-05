@@ -144,7 +144,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'HelveticaNeueRoman', sans-serif;
+  font-family: 'HelveticaNeueBold', sans-serif;
 }
 
 p,
@@ -362,7 +362,7 @@ footer {
   background: linear-gradient(to left, #E74C3C, #8E44AD);
   color: #fff;
   border: none;
-  padding: 9px 53px;
+  padding: 12px 53px;
   font-weight: 600;
   border-radius: 0;
   margin: 0 4rem 0 10px;
@@ -372,6 +372,11 @@ footer {
 .verify-btn:hover {
   background-color: #162d5f;
   color: white;
+}
+
+.form-control::placeholder {
+  color: rgba(168, 171, 174, 0.75);
+  opacity: 1;
 }
 
 .input-box {
@@ -634,13 +639,13 @@ footer {
       flex-shrink: 0;
       width: 100px;
 
-      img{
-        width: 75px;
+      img {
+        width: 65px;
       }
     }
 
     h2 {
-      font-size: 25px;
+      font-size: 1.25rem;
     }
 
     p {
@@ -682,7 +687,6 @@ footer {
       h5 {
         color: #fff;
         font-size: 16px;
-        font-weight: 800;
         text-transform: uppercase;
       }
 
@@ -1000,7 +1004,6 @@ footer {
       text-decoration: none;
       color: white;
       margin-top: 10px;
-      border-radius: 50px;
     }
   }
 
@@ -1073,7 +1076,6 @@ footer {
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 20px;
     font-size: 16px;
     cursor: pointer;
   }
@@ -1125,7 +1127,6 @@ footer {
       color: white;
       border: none;
       padding: 10px 30px;
-      border-radius: 20px;
       font-size: 16px;
       cursor: pointer;
       display: flex;
@@ -1193,10 +1194,10 @@ footer {
     border: none;
     font-size: 0.9rem;
     padding: 8px 15px;
-    border-radius: 20px;
+    border-radius: 0px;
     transition: background 0.3s;
     position: absolute;
-    margin-left: -4rem;
+    margin-left: -3rem;
   }
 }
 
@@ -1417,6 +1418,7 @@ footer {
 .image-container img {
   width: 100%;
   display: block;
+  width: 325px;
 }
 
 .overlay {
