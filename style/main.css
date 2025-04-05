@@ -389,6 +389,8 @@ footer .social-icons a:hover {
   border: 1px solid #1e3a78;
   padding: 10px 20px;
   transition: all 0.3s ease-in-out;
+  float: right;
+  margin-top: -15px;
 }
 .education-section p a:hover {
   background-color: #000;
@@ -1135,7 +1137,6 @@ footer .social-icons a:hover {
 .image-container img {
   width: 100%;
   display: block;
-  width: 325px;
 }
 
 .overlay {
@@ -1239,11 +1240,8 @@ footer .social-icons a:hover {
   color: white;
   font-size: 14px;
   padding: 6px 16px;
-  border-radius: 25px;
+  border-radius: 0px;
   text-transform: capitalize;
   transition: background 0.3s ease;
-}
-.course-table .register-btn:hover {
-  background-color: #003366;
-  color: #fff;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
