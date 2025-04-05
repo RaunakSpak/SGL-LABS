@@ -800,13 +800,14 @@ footer {
 .about-us {
   .brochure {
     background: linear-gradient(to left, #E74C3C, #8E44AD);
-    padding: 10px;
+    padding: 20px;
     color: white;
     text-decoration: none;
 
 
     img {
       margin-right: 10px;
+      width: 40px;
     }
   }
 }
@@ -816,7 +817,7 @@ footer {
     .brochure-section {
       .brochure {
         background: linear-gradient(to left, #E74C3C, #8E44AD);
-        padding: 10px;
+        padding: 20px;
         color: white;
         text-decoration: none;
         position: initial;
@@ -829,6 +830,7 @@ footer {
 
         img {
           margin-right: 10px;
+          width: 40px;
         }
       }
     }

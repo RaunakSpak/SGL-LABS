@@ -630,17 +630,18 @@ footer .social-icons a:hover {
 
 .about-us .brochure {
   background: linear-gradient(to left, #E74C3C, #8E44AD);
-  padding: 10px;
+  padding: 20px;
   color: white;
   text-decoration: none;
 }
 .about-us .brochure img {
   margin-right: 10px;
+  width: 40px;
 }
 
 .dia-screen .dia-screen-text .brochure-section .brochure {
   background: linear-gradient(to left, #E74C3C, #8E44AD);
-  padding: 10px;
+  padding: 20px;
   color: white;
   text-decoration: none;
   position: initial;
@@ -652,6 +653,7 @@ footer .social-icons a:hover {
 }
 .dia-screen .dia-screen-text .brochure-section .brochure img {
   margin-right: 10px;
+  width: 40px;
 }
 
 .block-chain h2 {
