@@ -151,6 +151,7 @@ p,
 a {
   font-family: 'HelveticaNeueLight', sans-serif;
   font-size: 14px !important;
+
 }
 
 .navbar {
@@ -318,6 +319,13 @@ a {
       &:hover {
         background-color: #f8f9fa;
       }
+    }
+  }
+
+  .dropdown{
+    a{
+      background: transparent !important;
+      color: black;
     }
   }
 
@@ -1318,7 +1326,6 @@ footer {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .card-title {
@@ -1341,7 +1348,6 @@ footer {
     border-radius: 0px;
     transition: background 0.3s;
     margin-top: auto;
-    width: fit-content;
   }
 }
 
