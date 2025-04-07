@@ -321,7 +321,35 @@ a {
     }
   }
 
+  .dropdown-toggle::after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url('../images/icon-3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 0.4em;
+    vertical-align: middle;
+    border: 0;
+  }
+  
+  .dropdown-submenu{
 
+    .dropdown-toggle::after {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-image: url('../images/angle-right.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-left: 0.4em;
+      vertical-align: middle;
+      border: 0;
+    }
+  }
+  
 
   .navbar-toggler {
     border: none;
