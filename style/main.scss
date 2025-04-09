@@ -1703,7 +1703,7 @@ footer {
     object-fit: cover;
   }
 
-  .blog-container{
+  .blog-container {
     min-height: 242px;
   }
 
@@ -1737,5 +1737,150 @@ footer {
   .blog-footer {
     border-top: 1px solid #eee;
     padding-top: 0.5rem;
+  }
+}
+
+
+.blog-post {
+  margin: 0 auto;
+
+  .blog-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #343a40;
+    margin-bottom: 0.5rem;
+  }
+
+  .text-muted {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: #0056b3;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    color: #444;
+  }
+
+  strong {
+    color: #212529;
+  }
+}
+
+
+.enquiry-section {
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #3a3a3a;
+  }
+
+  .enquiry-card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .enquiry-title {
+      font-size: 0.95rem;
+      letter-spacing: 0.5px;
+      color: #1e2b30;
+      font-weight: 600;
+    }
+  }
+}
+
+.location-section {
+  .nav-pills .nav-link {
+    border-radius: 50px;
+    border: 1px solid #888;
+    color: #1e2b30;
+    font-weight: 500;
+    padding: 10px 53px;
+    margin: 5px 20px;
+
+    &.active {
+      background: linear-gradient(to left, rgb(239, 71, 36), rgb(124, 63, 152));
+      color: #fff;
+    }
+  }
+
+  h5,
+  h6 {
+    color: #1e2b30;
+    font-weight: 600;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    box-shadow: none;
+  }
+
+  .text-dark {
+    color: #0a0a0a !important;
+    text-decoration: none;
+  }
+}
+
+
+.contact-form {
+  h2 {
+    font-weight: 600;
+    color: #1e2b30;
+  }
+
+  p {
+    font-size: 1.1rem;
+    color: #5a5a5a;
+  }
+
+  .main-form {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  input,
+  textarea {
+    border-radius: 0.3rem;
+    border: 1px solid #ced4da;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    box-shadow: none;
+
+    &:focus {
+      border-color: #0d223f;
+      box-shadow: 0 0 0 0.1rem rgba(13, 34, 63, 0.25);
+    }
+  }
+
+  .btn-submit {
+    background: linear-gradient(to left, rgb(239, 71, 36), rgb(124, 63, 152));
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 0px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    border: 0;
+
+    &:hover {
+      background-color: #09203a;
+    }
   }
 }
