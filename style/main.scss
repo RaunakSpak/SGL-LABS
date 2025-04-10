@@ -1884,3 +1884,32 @@ footer {
     }
   }
 }
+
+.career-section {
+  margin: 30px auto;
+}
+
+
+.accordion {
+
+  .accordion-item {
+
+    .accordion-collapse {
+
+      .accordion-body {
+
+        .form-control {
+          padding: 15px;
+          width: auto;
+          box-shadow: none;
+        }
+
+        .btn-dark{
+          background: linear-gradient(to left, rgb(239, 71, 36), rgb(124, 63, 152));
+          border: 0;
+          border-radius: 0;
+        }
+      }
+    }
+  }
+}

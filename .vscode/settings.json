@@ -1,3 +1,4 @@
 {
-    "git.terminalGitEditor": false
+    "git.terminalGitEditor": false,
+    "liveServer.settings.port": 5501
 }
