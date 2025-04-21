@@ -1,0 +1,52 @@
+.glass-navbar {
+  background: rgba(20, 20, 20, 0.6);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.glass-navbar .navbar-brand {
+  font-weight: bold;
+  color: #fff !important;
+}
+.glass-navbar .nav-link {
+  color: #ddd !important;
+  transition: all 0.3s ease;
+}
+.glass-navbar .nav-link:hover {
+  color: #fff !important;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+.glass-navbar .dropdown-menu {
+  background-color: rgba(30, 30, 30, 0.85);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.glass-navbar .dropdown-menu .dropdown-item {
+  color: #fff;
+}
+.glass-navbar .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.item {
+  transform-style: preserve-3d;
+  will-change: transform, opacity, filter;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.carousel-text {
+  background: linear-gradient(to right, #8e24aa, #f44336);
+  color: #fff;
+  padding: 12px;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}/*# sourceMappingURL=test.css.map */
