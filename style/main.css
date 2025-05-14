@@ -1891,4 +1891,20 @@ footer .social-icons a:hover {
   .edu-content {
     text-align: left;
   }
+
+  #eduCarousel .custom-row {
+  display: block;
+}
+
+}
+
+@media (max-width:575px){
+  .right-wrapper img {
+    width: 100%;
+    margin-top: 50%;
+}
+.product-highlight .carousel-inner{
+padding-left: 20px;
+padding-right: 20px;
+}
 }
