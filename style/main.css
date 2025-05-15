@@ -134,7 +134,7 @@ a {
   display: flex;
   justify-content: space-around;
   flex-grow: 1;
-  max-width: 800px;
+  max-width: 910px;
 }
 .carousel .navbar .nav-link {
   color: white !important;
@@ -154,6 +154,7 @@ a {
 }
 .carousel .navbar /*.dropdown:hover .dropdown-menu*/ {
   display: block;
+  position: absolute;
 }
 .carousel .navbar .dropdown .dropdown-menu {
   background-color: rgba(30, 30, 30, 0.85);
@@ -487,7 +488,8 @@ footer .social-icons a:hover {
 }
 
 .advantage-box:hover {
-  transform: translateY(-5px);
+  transform: scale(0.90) translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .advantage-box p {
