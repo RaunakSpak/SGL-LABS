@@ -1,0 +1,284 @@
+/* 
+@media (max-width: 767.98px) {
+  .product-highlight {
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .product-highlight .item.right-wrapper {
+    position: relative;
+    margin-top: 20px;
+    min-height: auto;
+    border-radius: 20px;
+  }
+
+  .product-highlight .item.right-wrapper > img {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .icon-title h4{
+    text-align: center;
+  }
+
+  .icon-title {
+    gap: 70px;
+  }
+
+  .advantage-box p{
+    text-align: center;
+  }
+}
+*/
+@media (min-width: 992px) {
+  .navbar .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  .dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+    top: 0;
+    right: 100%;
+    margin-top: -1px;
+  }
+}
+/*
+@media(max-width: 991px) {
+  .dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+    left: 100%;
+    margin-top: -1px;
+  }
+}
+
+@media (max-width: 991px) {
+  .carousel .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
+  z-index: 999;
+  background: rgba(20, 20, 20, 0.6);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+  .h-100vh {
+  height: 100vh;
+  object-fit: cover;
+}
+
+} 
+
+
+@media (max-width: 767.98px) {
+  .navbar {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+
+  .navbar-brand img {
+    max-height: 40px;
+    width: auto;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 14px;
+    padding: 0.3rem 0.7rem;
+  }
+
+  .navbar-toggler {
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+  }
+
+  .dropdown-menu {
+    font-size: 14px;
+  }
+
+  .navbar-collapse {
+    padding: 0.5rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+   .carousel-left-text {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width : 35%;
+    height : 30%;
+    line-height: 1.2;
+  }
+
+  .carousel-left-button {
+      
+      margin: 5px auto 130px;
+      z-index: 15;
+      
+      margin-left: 10px;
+  }
+
+  .verification-section {
+    width: 75%;
+    height: 120px;
+    left: 5%;
+    padding: 15px;
+  }
+
+  .mobile-verification {
+    flex-direction: row;
+  }
+
+  .mobile-verification input{
+    width:70%;
+    height: 50px;
+  }
+  .mobile-verification button {
+   width:30%;
+     }
+
+  .info-text {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .verify-btn{
+    padding:10px 10px;
+    margin:0px;
+  }
+}
+
+
+*/
+
+
+@media (max-width: 768px) {
+
+    .carousel .navbar {
+  display: block;
+  position: absolute;
+  position: static;
+  margin: 0;
+  border-radius: 0;
+  width: 100%;
+}
+
+.carousel .navbar .nav-link:hover{
+    display: flex;
+}
+
+.carousel .navbar .dropdown a {
+    display: flex;
+  justify-content: space-between;
+}
+
+  .education-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .edu-img-container img {
+    max-width: 100%;
+  }
+
+  .edu-content {
+    text-align: left;
+  }
+
+  #eduCarousel .custom-row {
+  display: block;
+}
+
+.mobile-toggle-minus, .mobile-toggle-plus {
+    width: 20px;
+    height: 20px;
+}
+
+.mobile-toggle-plus.active, .mobile-toggle-minus.active {
+    display: inline-block;
+}
+
+.carousel .navbar .dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    /* display: block; */
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+  }
+
+.carousel-left-text {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width : 35%;
+    height : 45%;
+    line-height: 1.2;
+  }
+
+  .carousel-left-button {
+      
+      margin: 5px auto 220px;
+      z-index: 15;
+      
+      margin-left: 10px;
+  }
+
+  .verification-section {
+    width: 75%;
+    height: 120px;
+    left: 5%;
+    padding: 15px;
+  }
+
+  .mobile-verification {
+    flex-direction: row;
+  }
+
+  .mobile-verification input{
+    width:70%;
+    height: 50px;
+  }
+  .mobile-verification button {
+   width:30%;
+     }
+
+  .info-text {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .verify-btn{
+    padding:10px 10px;
+    margin:0px;
+  }
+
+  .product-highlight {
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .product-highlight .item.right-wrapper {
+    position: relative;
+    margin-top: 20px;
+    min-height: auto;
+    border-radius: 20px;
+  }
+
+  .product-highlight .item.right-wrapper > img {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+
+}

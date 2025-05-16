@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SGL-Labs</title>
-    <link rel="stylesheet" href="./style/main.css">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/7fce4b5f90.js" crossorigin="anonymous"></script>
     <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+              <link rel="stylesheet" href="./style/main.css">
+              <link rel="stylesheet" href="./style/mobile.css">
 </head>
 
 <body>
@@ -20,7 +22,6 @@
         <div id="sglHeader"></div>
 
         <div class="verification-section">
-            <!--<h6 class="header-text"></h6>-->
             <div class="mobile-verification">
                 <input type="text" class="form-control input-box me-2" placeholder="SGL Report Number">
                 <button class="btn verify-btn">Verify</button>
@@ -35,16 +36,6 @@
             <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#demo" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <!--
-        <div class="custom-carousel-controls">
-            <button class="carousel-up" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                <span><img src="./images/01.png" alt=""></span>  Up icon
-            </button>
-            <button class="carousel-down" type="button" data-bs-target="#demo" data-bs-slide="next">
-                <span><img src="./images/02.png" alt=""></span>  <Down icon
-            </button>
-        </div>
-    -->
 
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
@@ -71,46 +62,8 @@
             </div>
         </div>
 
-        <!-- Left and right controls/icons -->
-        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button> -->
     </div>
-    <!--
-    <div class="container">
-        <h2 class="carousel-left-text">Verified <br>With Vision</h2>
-        <a href="" class="carousel-left-button">Know More</a>
-    </div>
--->
-    <!-- <div class="container peace-of-mind">
-        <div class="row content">
-
-            <div class="col-md-4 image-container">
-                <img src="./images/Image-4.png" alt="Diamond Certification" class="img-fluid">
-            </div>
-
-            <div class="col-md-8 text-container">
-                <h1>Peace of Mind, Assured!</h1>
-                <p><em>Not Just A Slogan, But A Promise</em></p>
-                <p>
-                    SGL guarantees the highest quality standards with the latest science, state-of-the-art equipment,
-                    and a strong analytical infrastructure, ensuring every diamond undergoes stringent grading and
-                    certification
-                    across 23 global laboratories. As a pioneer in Natural and Lab-Grown Diamond classification,
-                    SGL actively promotes awareness through certification education and specialized instruments.
-                </p>
-                <p>
-                    With a dynamic team of over 475 professionals across five countries,
-                    SGL embraces diversity and an open-minded culture, offering exciting global career opportunities
-                    while maintaining excellence in diamond authentication.
-                </p>
-            </div>
-        </div>
-    </div> -->
-
+    
     <div class="text-heading">
         <h2>The SGL Advantage</h2>
         <p class="para"><b>Here's what makes our diamond certification stand apart.</b></p>
@@ -175,78 +128,39 @@
         </div>
     </div>
 
-    <!-- <div class="container">
-    <div class="row">
-        <div class="col-md-5 mb-4 mb-md-0">
-            <h2>Education</h2>
-            <p>
-                Accelerate your career growth with our world-class educational programs on diamonds, coloured gemstones,
-                jewellery design and retail product management.
-            </p>
-            <div>
-                <button class="btn btn-outline-dark me-2"><img src="./images/left-chevron.png" alt=""></button>
-                <button class="btn btn-outline-dark"><img src="./images/right-chevron.png" alt=""></button>
-            </div>
-        </div>
-
-        <div class="col-md-7">
-            <div class="d-flex flex-column flex-md-row rounded-4 overflow-hidden shadow">
-
-                <div class="flex-shrink-0" style="flex: 0 0 55%;">
-                    <img src="./images/image.png" alt="Diamonds" class="img-fluid h-100 w-100 object-fit-cover">
-                </div>
-
-                <div class="p-4 d-flex flex-column justify-content-between bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="d-flex flex-column justify-content-between col-xxl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                <div id="edu">
                     <div>
-                        <h4>Qualified Diamond Specialist</h4>
+                        <h2>Education</h2>
                         <p>
-                            <b>The Qualified Diamond Specialist course is a combination of theory and practical tuition
-                                that will help
-                                students understand the various aspects of diamond and factors that determine its market
-                                value. It offers
-                                a fast-paced understanding of diamond grading, the essential 4C, and its influence on
-                                value as well as
-                                identification of synthetic and natural diamonds.</b>
+                            Accelerate your career growth with our world-class educational programs on diamonds,
+                            coloured gemstones,
+                            jewellery design and retail product management.
                         </p>
                     </div>
-                    <button class="btn btn-dark align-self-start mt-3 px-4">Know more</button>
+                    <div class="d-flex flex-md-row justify-content-end">
+                        <img src="./images/left-chevron.png" alt="" class="img-fluid edt-btn left"
+                            data-bs-target="#eduCarousel" data-bs-slide="prev">
+                        <img src="./images/right-chevron.png" alt="" class="img-fluid edt-btn"
+                            data-bs-target="#eduCarousel" data-bs-slide="next">
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div> -->
-
-    <div class="container">
-        <div id="eduCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div
-                            class="d-flex flex-column justify-content-between col-xxl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                            <div>
-                                <h2>Education</h2>
-                                <p>
-                                    Accelerate your career growth with our world-class educational programs on diamonds,
-                                    coloured gemstones,
-                                    jewellery design and retail product management.
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-end">
-                                <img src="./images/left-chevron.png" alt="" class="img-fluid edt-btn left">
-                                <img src="./images/right-chevron.png" alt="" class="img-fluid edt-btn"
-                                    data-bs-target="#eduCarousel" data-bs-slide="prev">
-                            </div>
-                        </div>
-                        <div class=" col-lg-8 col-md-12 col-sm-12 col-12">
-                            <div class="custom-row">
-                                <div
-                                    class=" col-lg-6 col-md-6 col-sm-12 col-12 d-flex flex-column flex-md-row overflow-hidden left-wrapper">
-                                    <img src="./images/image.png" id="diamond" alt="Diamonds"
-                                        class="img-fluid h-100 w-100 object-fit-cover">
-                                </div>
-                                <div
-                                    class=" col-lg-6 col-md-6 col-sm-12 col-12 right-wrapper p-4 d-flex flex-column justify-content-between bg-light">
-                                    <div>
+            <div class=" col-lg-8 col-md-12 col-sm-12 col-12">
+                <div class="custom-row">
+                    <div id="eduCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="d-flex flex-column flex-md-row">
+                                    <div
+                                        class="col-lg-6 col-md-6 col-sm-12 col-12 flex-column flex-md-row overflow-hidden left-wrapper">
+                                        <img src="./images/image.png" id="diamond" alt="Diamonds"
+                                            class="img-fluid h-100 w-100 object-fit-cover">
+                                    </div>
+                                    <div
+                                        class="col-lg-6 col-md-6 col-sm-12 col-12 right-wrapper p-4 flex-column justify-content-between bg-light">
                                         <div>
                                             <h4>Qualified Diamond Specialist</h4>
                                             <p>
@@ -261,6 +175,62 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="carousel-item">
+                                <div class="d-flex flex-column flex-md-row">
+                                    <div
+                                        class=" col-lg-6 col-md-6 col-sm-12 col-12 flex-column flex-md-row overflow-hidden left-wrapper">
+                                        <img src="./images/sgl-retailproduct.jpg" id="diamond" alt="Retail"
+                                            class="img-fluid h-100 w-100 object-fit-cover">
+                                    </div>
+                                    <div
+                                        class=" col-lg-6 col-md-6 col-sm-12 col-12 right-wrapper p-4 flex-column flex-md-row justify-content-between bg-light">
+                                        <div>
+                                            <div>
+                                                <h4>Retail Product Management</h4>
+                                                <p>
+                                                    A comprehensive retail-centric course, developed by SGL education.
+                                                    This course imparts knowledge and training on different aspects of
+                                                    retail.
+                                                    It covers a broad spectrum of topics starting from the evolution of
+                                                    JEWELLERY
+                                                    to manufacturing to sales techniques and merchandising. This course
+                                                    is tailored
+                                                    to create the perfect sales staff and to educate them on the
+                                                    techniques and responsibilities of retail sales.
+                                                </p>
+                                            </div>
+                                            <button class="btn btn-dark align-self-start mt-3 px-4">Know more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex flex-column flex-md-row">
+                                    <div
+                                        class=" col-lg-6 col-md-6 col-sm-12 col-12 flex-column flex-md-row overflow-hidden left-wrapper">
+                                        <img src="./images/sgl-colorgemstone.jpg" id="diamond" alt="gemstone"
+                                            class="img-fluid h-100 w-100 object-fit-cover">
+                                    </div>
+                                    <div
+                                        class=" col-lg-6 col-md-6 col-sm-12 col-12 right-wrapper p-4 flex-column flex-md-row justify-content-between bg-light">
+                                        <div>
+                                            <div>
+                                                <h4>Colored Gemstone Professional</h4>
+                                                <p>
+                                                    A course that elaborates on the expertise and knowledge for gem
+                                                    enthusiasts and enables them to identify,
+                                                    grade, and value gemstones based on international standards. The
+                                                    course is structured as per the
+                                                    international colored stone industry, which will enable the
+                                                    candidate to easily relate to the current market
+                                                    dynamics and terminologies for an allround grasp over the subject.
+                                                </p>
+                                            </div>
+                                            <button class="btn btn-dark align-self-start mt-3 px-4">Know more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -268,143 +238,9 @@
         </div>
     </div>
 
-
-    <!-- Education-section -->
-    <!-- <div class="container py-5 education-section">
-        <h2 class=" ">Education</h2>
-        <p>Enhance your career with our premier educational programs in diamonds, coloured gemstones, jewellery design,
-            and retail product management. Explore our internship opportunities. <a href="education.html">Know more</a>
-        </p>
-        <div class="position-relative">
-            <div class="owl-carousel owl-theme mt-4">
-                <a href="qualified-jewellery-specialist.html">
-                    <div class="item position-relative">
-                        <img src="./images/owl-1.png" class="img-fluid">
-                        <div class="carousel-text">Qualified Jewellery Specialist</div>
-                    </div>
-                </a>
-
-                <a href="./qualified-diamond-specialist.html">
-                    <div class="item position-relative">
-                        <img src="./images/owl-1.png" class="img-fluid">
-                        <div class="carousel-text">Qualified Diamond Specialist</div>
-                    </div>
-                </a>
-
-                <a href="advance-gemstone-charter.html">
-                    <div class="item position-relative">
-                        <img src="./images/owl-3.png" class="img-fluid ">
-                        <div class="carousel-text">Advanced Gemstone Charter</div>
-                    </div>
-                </a>
-
-                <a href="./advanced-diamond-charter.html">
-                    <div class="item position-relative">
-                        <img src="./images/owl-3.png" class="img-fluid ">
-                        <div class="carousel-text">Advanced Diamond Charter</div>
-                    </div>
-                </a>
-
-
-                <a href="./retail-product-management.html">
-                    <div class="item position-relative">
-                        <img src="./images/owl-3.png" class="img-fluid ">
-                        <div class="carousel-text">Retail Product Management</div>
-                    </div>
-                </a>
-
-                <a href="./colored-gemstone-specialist.html">
-                    <div class="item position-relative">
-                        <img src="./images/owl-3.png" class="img-fluid ">
-                        <div class="carousel-text">Colored Gemstone Specialist</div>
-                    </div>
-                </a>
-
-
-            </div>
-            <button class="custom-prev"><span>&#8592;</span></button>
-            <button class="custom-next"><span>&#8594;</span></button>
-        </div>
-    </div> -->
-
-    <!-- <div class="container py-5 dia-screen">
-        <div class="row align-items-center">
-            <div class="col-md-4 col-lg-4 dia-screen-text">
-                <h2>Dia Screen</h2>
-                <p>Instantly verify diamond authenticity with our cutting-edge detection technology. Our advanced
-                    screening
-                    system ensures precise identification of natural and lab-grown diamonds, providing accuracy and
-                    confidence
-                    in every evaluation.</p>
-                <a href="dia-screen.html" class="know-more">Know more</a>
-            </div>
-
-            <div class="col-md-8 dia-screen-img">
-                <div class="item"><img src="./images/Group-40.png" alt="DIA Screen XL"></div>
-            </div>
-        </div>
-    </div> -->
-
-
-    <!-- <div class="container-fluid subscribe-section">
-        <div class="container py-4">
-            <h3 class="fw-bold text-center">
-                Stay Informed With The Latest In Diamonds,
-                Screening Technology And Gemstone Education.
-            </h3>
-        </div>
-    </div> -->
-
-    <!-- <div class="container">
-        <section class="linkedin-learning">
-            <div class="linkedin-learning-header">
-                <h2>Linkedin Learning</h2>
-                <p>Stay updated with industry insights, expert sessions and the latest trends in diamonds and gemstones.
-                </p>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-md-3 col-sm-6">
-                    <div class="card">
-                        <a target="_blank"
-                            href="https://www.linkedin.com/posts/sgl-labs_sglcertified-sgllabs-birthstoneofthemonth-activity-7246798628424470530-k49j?utm_source=share&utm_medium=member_desktop"><img
-                                src="https://sgl-labs.com/wp-content/uploads/2022/03/OPAL-OCTOBER-BIRTHSTONE.png"
-                                alt="Post 1" class="card-img-top"></a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="card">
-                        <a target="_blank"
-                            href="https://www.linkedin.com/posts/sgl-labs_labgrowndiamonds-diamondcertification-jewelleryinnovation-activity-7241467211943460864-F7Uk?utm_source=share&utm_medium=member_desktop">
-                            <img src="https://sgl-labs.com/wp-content/uploads/2022/03/A-SUCCESSFUL-SEMINAR-ON-LAB-GROWN-DIAMONDS.png"
-                                alt="Post 2" class="card-img-top"></a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="card">
-                        <a target="_blank"
-                            href="https://www.linkedin.com/posts/sgl-labs_diamondworkshop-jewellersonly-diamondgrading-activity-7245355954303586304-y_2p?utm_source=share&utm_medium=member_desktop">
-                            <img src="https://sgl-labs.com/wp-content/uploads/2022/03/UNLOCK-THE-SECRETS-OF-DIAMONDS.png"
-                                alt="Post 3" class="card-img-top"></a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="card">
-                        <a target="_blank"
-                            href="https://www.linkedin.com/posts/sgl-labs_sgl-diamondcertification-rarediamonds-activity-7240716554525433856-a7-R?utm_source=share&utm_medium=member_desktop">
-                            <img src="https://sgl-labs.com/wp-content/uploads/2022/03/DISCOVER-THE-WORLDS-RAREST-DIAMONDS.png"
-                                alt="Post 4" class="card-img-top"></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div> -->
-
     <!-- footer -->
 
     <div id="sglFooter"></div>
-
-
 
     <!-- jQuery and Owl Carousel JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -413,16 +249,6 @@
 
     <script>
         $(document).ready(function () {
-
-            $(window).on("scroll", function () {
-                if ($(this).scrollTop() > 50) {
-                    $("#sglNavbar").addClass("fixed-top");
-                } else {
-                    $("#sglNavbar").removeClass("fixed-top");
-                }
-            });
-
-
             var owl = $(".owl-carousel");
             owl.owlCarousel({
                 loop: true,
