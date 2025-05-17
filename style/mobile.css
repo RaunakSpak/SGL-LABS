@@ -159,7 +159,41 @@
 
 @media (max-width: 768px) {
 
-    .carousel .navbar {
+  .box-advantage::after {
+    display: none; /* Hide separators on small screens */
+  }
+
+.feature-box-left {
+  border-radius: 25px;
+  width: 100%;
+  background-color: #eeeeee;
+  margin-top: 0px;
+}
+
+.feature-box-right {
+  border-radius: 25px;
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+.feature-box-right-aligning {
+  padding-left: 20px;
+}
+
+.circle-badge {
+    position: relative;
+    transform: none;
+    top: auto;
+    left: auto;
+    margin: 20px auto;
+  }
+
+  .rounded-start,
+  .rounded-end {
+    border-radius: 1rem !important;
+  }
+
+  .carousel .navbar {
   display: block;
   position: absolute;
   position: static;
