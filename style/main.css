@@ -547,6 +547,19 @@ footer .social-icons a:hover {
   /*line-height: 72px;*/
 }
 
+.carousel-left-texthome {
+  position: absolute;
+  margin-top: 0;
+  color: #fff;
+  bottom: 16%;
+  font-family: Arial, sans-serif;
+  margin-left: 10px;
+  font-size: 65px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), 3px 3px 6px rgba(0, 0, 0, 0.8), 4px 4px 10px rgba(0, 0, 0, 0.6);
+  /*line-height: 72px;*/
+}
+
 .carousel-left-text > h2 {
   font-size: 65px;
   font-weight: 700;
@@ -554,7 +567,14 @@ footer .social-icons a:hover {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), 3px 3px 6px rgba(0, 0, 0, 0.8), 4px 4px 10px rgba(0, 0, 0, 0.6);
 }
 
-.carousel-left-text > p {
+ .carousel-left-texthome > h2 {
+  font-size: 65px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), 3px 3px 6px rgba(0, 0, 0, 0.8), 4px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-left-text .carousel-left-texthome > p {
   font-size: 50px;
   font-weight: 600;
   color: #fff;
