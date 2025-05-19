@@ -565,6 +565,7 @@ footer .social-icons a:hover {
   font-weight: 700;
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), 3px 3px 6px rgba(0, 0, 0, 0.8), 4px 4px 10px rgba(0, 0, 0, 0.6);
+  line-height: 1;
 }
 
  .carousel-left-texthome > h2 {
@@ -1525,9 +1526,9 @@ footer .social-icons a:hover {
   transition: 0.3s;
 }
 
-.d-none {
+/* .d-none {
   display: none !important;
-}
+} */
 
 .Hologram {
   width: 100px;
@@ -2136,7 +2137,7 @@ why-card-img img{
 }
 
 .timeline-section {
-  background: url('../images/background.png') no-repeat center center/cover;
+  background: url('../images/background(1).png') no-repeat center center/cover;
   position: relative;
   height: 1200px;
   display: flex;
