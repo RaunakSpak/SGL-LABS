@@ -484,8 +484,51 @@ footer .social-icons a:hover {
   width: 93% !important;
 }
 
-.origin img{
+.origin{
   padding: 10px;
+}
+
+.carousel-left-text-dia {
+  position: absolute;
+  margin-top: 0;
+  color: #fff;
+  bottom: 50%;
+  font-family: Arial, sans-serif;
+  margin-left: 5px;
+  font-size: 65px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), 3px 3px 6px rgba(0, 0, 0, 0.8), 4px 4px 10px rgba(0, 0, 0, 0.6);
+  /*line-height: 72px;*/
+}
+
+.carousel-left-text-dia > p{
+  font-size : 22px !important;
+  font-weight: 400;
+}
+
+.carousel-left-text-dia > h4 {
+  font-size: 23px !important;
+  font-weight: 500;
+}
+
+.carousel-left-text-dia > h1 {
+  font-size: 55px !important;
+  font-weight: 700;
+}
+
+.dia-slide-head {
+  display: inline-block;
+  width: 100%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+#dia > .d-sm-block {
+  display: flex !important;
+  align-items: start;
+  position: absolute;
+  align-self: flex-end;
+  right: 0px;
 }
 
 }
