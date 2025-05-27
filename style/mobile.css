@@ -521,6 +521,7 @@ footer .social-icons a:hover {
   width: 100%;
   margin-top: 8%;
   margin-bottom: 8%;
+  font-size: 26px !important
 }
 
 #dia > .d-sm-block {
@@ -528,7 +529,6 @@ footer .social-icons a:hover {
   align-items: start;
   position: absolute;
   align-self: flex-end;
-  right: 0px;
 }
 
 }
