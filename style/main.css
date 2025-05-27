@@ -357,11 +357,6 @@ a {
   background-color: #f8f9fa;
 }
 
-.carousel .navbar .dropdown a {
-  /* background: transparent !important; */
-  /* color: black; */
-}
-
 .carousel .navbar .dropdown-toggle::after {
   content: "";
   display: inline-block;
@@ -1062,9 +1057,6 @@ footer .social-icons a:hover {
   font-size: 17px !important;
 }
 
-#dia .container {
-  /* margin: 20px */
-}
 
 #edu>.d-sm-block {
   display: flex !important;
@@ -1391,9 +1383,6 @@ footer .social-icons a:hover {
   width: 40px;
 }
 
-.block-chain h2 {
-  /* font-family: "Helvetica", sans-serif; */
-}
 
 .origin {
   font-family: "Helvetica", sans-serif;
@@ -1787,9 +1776,7 @@ footer .social-icons a:hover {
   }
 
 
-.inquiry-form {
-  /* padding: 40px 0; */
-}
+
 
 .inquiry-form .container-fluid {
   padding: 0;
