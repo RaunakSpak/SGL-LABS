@@ -469,7 +469,7 @@ a {
   /* display: inline-block; */
   width: 10px;
   height: 10px;
-  background-image: url("../images/icon-3.png");
+  background-image: url("../images/right-arrow.png");
   background-size: contain;
   background-repeat: no-repeat;
   margin-left: 0.4em;
@@ -3001,7 +3001,7 @@ footer table p{
 }
 
 .dia-slide-1{
-   background: url('../images/SGL-Dia-Screen-06.png') no-repeat center center/cover;
+   background: url('../images/XL.png') no-repeat center center/cover;
    height: 800px;
    width: 100%;
    position:relative;
@@ -3014,7 +3014,7 @@ footer table p{
 }
 
 .dia-slide-2{
-  background:url('../images/SGL-Dia-Screen-05.png') no-repeat center center/cover;
+  background:url('../images/XL_PRO.png') no-repeat center center/cover;
   height: 800px;
   width: 100%;
   position: relative;
@@ -3027,7 +3027,7 @@ footer table p{
 }
 
 .dia-slide-3{
-  background:url('../images/SGL-Dia-Screen-04.png') no-repeat center center/cover;
+  background:url('../images/JUMBO-3.png') no-repeat center center/cover;
   height: 800px;
   width: 100%;
   position: relative;
