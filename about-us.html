@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SGL-Labs</title>
     <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/mobile.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/7fce4b5f90.js" crossorigin="anonymous"></script>
     <!-- Owl Carousel CSS -->
@@ -18,16 +19,139 @@
 <body>
 
     <!-- navbar -->
-      <div class="carousel other-screen">
+    <div id="demo-dia" class="carousel slide" data-bs-ride="carousel" data-interval="30000">
+
         <div id="sglHeader"></div>
+
+
+        <!-- <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo-dia" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#demo-dia" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#demo-dia" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div> -->
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/About-us-banner.png" alt="Verified" class="d-none d-md-block w-100">
+                <img src="./images/Phone-Banner.png" alt="Verified mobile" class="d-block d-md-none w-100 h-100vh">
+                <div class="container">
+                    <div class="carousel-left-text-dia about-us-text">
+                        <h1> About us </h1>
+                        <h4> Global Standards. Trusted Certification.</h4>
+                        <div class="color-separator"></div>
+                        <!-- <h3> Connect. Curate. Convert.</h3> -->
+                        <p>Delivering accurate, consistent & transparent diamond certification powered by innovation
+                          <br>  & integrity. </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
-    <!-- About Us Section -->
-    <div class="container-fluid banner-section">
-        <img src="./images/about/banner.png" alt="About Us Banner" class="img-fluid">
+    <div class="container dia-screen-feature">
+
+        <div class="row text-center header-section">
+
+            <div class="col-md-4">
+                <div class="dia-feature-card">
+                    <img src="./images/about/1.png" alt="EcoAssure Icon" class="mt-3">
+                    <h4 class="mt-2 mb-3">Global Excellence <br>In Diamond Certification</h4>
+                    <p class="text-muted px-4">Founded in 2007, SGL is a British diamond certification &
+                        authentication laboratory
+                        headquartered in London.<br><br>As one of the fastest-growing international laboratories,
+                        we
+                        operate in 5 countries with 23 locations & 198 geo-footprints worldwide.<br><br>Our
+                        commitment to
+                        excellence ensures accurate & reliable certification of both Natural & Lab-Grown
+                        Diamonds,setting industry benchmarks.</p>
+                    <div class="gradient-bottom"></div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="dia-feature-card">
+                    <img src="./images/about/3.png" alt="OriginAssure Icon" class="mt-3">
+                    <h4 class="mt-2 mb-3">Precision, Integrity<br> & Innovation</h4>
+                    <p class="text-muted px-4">At SGL, every diamond undergoes stringent testing using
+                        state-of-the-art analytical
+                        instruments to ensure authenticity and quality.<br><br> Our expert gemologists, with deep
+                        scientific
+                        and gemmological knowledge, conduct assessments with unmatched precision.<br><br> We
+                        take pride in
+                        maintaining transparency and trust in every certification,reinforcing the credibility of
+                        our reports.</p>
+                    <div class="gradient-bottom"></div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="dia-feature-card">
+                    <img src="./images/about/2.png" alt="Diamond Ledger Icon" class="mt-3">
+                    <h4 class="mt-2 mb-3">Advancing Awareness <br>& Education</h4>
+                    <p class="text-muted px-4">Beyond certification, SGL actively contributes to global awareness
+                        and education in the
+                        diamond industry.<br><br> Through extensive research, workshops and collaborations, we
+                        provide
+                        valuable insights into diamond classification, identification and treatments.<br><br> Our
+                        mission is
+                        to empower jewellers, retailers and consumers with knowledge they can trust.</p>
+                    <div class="gradient-bottom"></div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <section class="about-us container py-5">
+    <div class="container about-us-section">
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <img src="./images/About-Us-Screen-02.png" alt="About Us Image" class="img-fluid full-width">
+            </div>
+            <div class="col-md-6">
+                <div class="about-text-2">
+                    <h2>House of perfection</h2>
+                    <p class="text-muted sizing">At SGL, perfection drives excellence in gemmology,
+                        technology,<span class="desktop-br"><br></span> and education, ensuring industry-leading
+                        standards.<br></span></p>
+                    <!-- <div class="about-separator"></div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-6 order-2 order-md-1">
+                <div class="about-text">
+                    <h2>House of accuracy</h2>
+                    <p class="text-muted sizing">Precision is key. We implement rigorous measures to
+                        maintain<span class="desktop-br"><br></span> trust and reliability in every
+                        cerfitication<br></span></p>
+                </div>
+                <!-- <div class="about-separator-2"></div> -->
+            </div>
+            <div class="col-md-6 order-1 order-md-2">
+                <img src="./images/About-Us-Screen-03.png" alt="About Us Image" class="img-fluid full-width">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./images/About-Us-Screen-04.png" alt="About Us Image" class="img-fluid full-width">
+            </div>
+            <div class="col-md-6">
+                <div class="about-text-2">
+                    <h2>House of quality</h2>
+                    <p class="text-muted sizing">Quality defines us. Our commitment to excellence and customer<span
+                            class="desktop-br">
+                            trust sets new benchmarks in cerfitication.<br></span></p>
+                </div>
+                <!-- <div class="about-separator-3"></div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- <section class="about-us container py-5">
         <h2 class=" mb-4">About Us</h2>
 
         <div class="text-center">
@@ -89,7 +213,7 @@
     <section class="house-section py-3">
         <div class="container">
             <div class="row">
-                <!-- House of Perfection -->
+                House of Perfection
                 <div class="col-md-4">
                     <div class="house-card d-flex">
                         <div class="image-container">
@@ -103,7 +227,7 @@
                     </div>
                 </div>
     
-                <!-- House of Accuracy -->
+                House of Accuracy
                 <div class="col-md-4">
                     <div class="house-card d-flex">
                         <div class="image-container">
@@ -117,7 +241,7 @@
                     </div>
                 </div>
     
-                <!-- House of Quality -->
+                House of Quality
                 <div class="col-md-4">
                     <div class="house-card d-flex">
                         <div class="image-container">
@@ -134,7 +258,7 @@
         </div>
     </section>
     
-    
+     -->
 
 
 

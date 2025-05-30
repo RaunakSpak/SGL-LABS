@@ -1,3 +1,6 @@
+<html>
+<body>
+
 <nav class="navbar navbar-expand-lg glass-navbar" id="sglNavbar">
     <div class="container">
         <a class="navbar-brand" href="index.html">
@@ -55,7 +58,7 @@
 
                 <!-- <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>-->
                 <li class="nav-item"><a class="nav-link" href="http://sglcertified.com" target="_blank">Buy Diamonds</a></li>
-                <li class="nav-item"><a class="nav-link" href="../behind-the-carat.html" target="_blank">Behind the Carat</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://behindthecarat.com" target="_blank">Behind the Carat</a></li>
                 <!-- <li class="nav-item"><a class="nav-link" href="#">Radiant Club</a></li> -->
 
                 <li class="nav-item dropdown">
@@ -71,7 +74,7 @@
                         <li><a class="dropdown-item" href="education.html">Introduction</a></li>
                         <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
                         <li class="dropdown-submenu dropend position-relative">
-                            <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            <a class="dropdown-item dropdown-toggle submenu-toggle" href="#" data-bs-toggle="dropdown"
                                 aria-expanded="false">Courses</a>
                             <ul class="dropdown-menu right">
                                 <li><a class="dropdown-item" href="advance-gemstone-charter.html">Advance
@@ -104,3 +107,32 @@
         </div>
     </div>
 </nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const dropdownToggles = document.querySelectorAll('submenu-toggle');
+
+        dropdownToggles.forEach(function (toggle) {
+            toggle.addEventListener('click', function (e) {
+                e.preventDefault(); // Prevent default link behavior
+                const submenu = this.nextElementSibling;
+
+                document.querySelectorAll('.sub-submenu').forEach(menu => {
+          if (menu !== submenu) {
+            menu.classList.remove('show');
+          }
+        });
+
+        // Toggle current submenu
+        submenu.classList.toggle('show');
+
+                // Optionally close other open submenus (uncomment to enable this behavior)
+                // document.querySelectorAll('.dropdown-submenu .dropdown-menu').forEach(menu => {
+                //     if (menu !== submenu) menu.classList.remove('show');
+                // });
+            });
+        });
+    });
+</script>
+</body>
+</html>
