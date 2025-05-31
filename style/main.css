@@ -2764,6 +2764,7 @@ footer .social-icons a:hover {
   padding: 0.75rem 1rem;
   font-size: 1rem;
   box-shadow: none;
+  width: 100%;
 }
 
 .contact-form input:focus,
@@ -2783,6 +2784,8 @@ footer .social-icons a:hover {
   align-items: center;
   transition: all 0.3s ease;
   border: 0;
+  width: 100%;
+  justify-content: center;
 }
 
 .contact-form .btn-submit:hover {
