@@ -185,14 +185,20 @@ h6 {
   font-family: "HelveticaNeueBold", sans-serif;
 }
 
+h4,
+h5,
 h6 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem !important;
 }
 
 p,
 a {
   font-family: "HelveticaNeueLight", sans-serif;
-  font-size: 14px !important;
+  font-size: 14px;
 }
 
 .carousel.other-screen #sglNavbar {
@@ -1051,6 +1057,11 @@ footer .social-icons a:hover {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
   border-radius: 15px;
   transition: ease-in-out 0.3s;
+  min-height: 235px;
+}
+
+.feature-box-2{
+  min-height: auto !important;
 }
 
 .feature-section .feature-box:hover {
@@ -2196,7 +2207,7 @@ footer .social-icons a:hover {
   border-radius: 8px;
   transition: background 0.3s;
   margin-top: auto;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 18px !important;
 }
 
@@ -2485,12 +2496,13 @@ footer .social-icons a:hover {
   /* transform: scale(1.1); */
 }
 
-.hearts-arrows p {
+.hearts-arrows {
   margin-top: 0px;
 }
 
 .container.hearts-arrows {
-  margin-top: 20px;
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 
 .gallery-item {
@@ -2504,6 +2516,7 @@ footer .social-icons a:hover {
 .laser-inscription p {
   margin-top: 20px;
   text-align: justify;
+  margin-bottom: 40px;
 }
 
 .list-unstyled {
