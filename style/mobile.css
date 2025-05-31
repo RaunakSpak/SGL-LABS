@@ -623,21 +623,42 @@
     left: 0px;
   }
 
+  #navbarNav {
+    max-height: 100vh; 
+    overflow-y: auto;  
+  }
+
+  /* Hide by default */
+.sub-submenu {
+  display: none;
+  padding-left: 15px;
+  background-color: #222; /* match your mobile menu bg */
+}
+
+/* Show when class is toggled */
+.sub-submenu.show {
+  display: block;
+}
+
+
   .dia-slide-1 {
     background: url("../images/SGL-Dia-phone-01.png");
     height: 460px;
+    width: 100%;
     padding: 15px;
   }
 
   .dia-slide-2 {
     background: url("../images/SGL-Dia-phone-02.png");
     height: 460px;
+    width: 100%;
     padding: 15px;
   }
   
   .dia-slide-3 {
     background: url("../images/SGL-Dia-phone-03.png");
     height: 460px;
+    width: 100%;
     padding: 15px;
   }
 
@@ -853,5 +874,137 @@
   bottom: -13%;
   width: 6%;
 }
+
+.dia-feature-section .dia-image-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+.dia-feature-section .feature-box-section h1 {
+  font-size: 35px !important;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'AcuminPro-SemiBold';
+}
+
+.dia-feature-section .feature-box-section p {
+  font-size: 17px !important;
+  margin: 10px 0px;
+  line-height: 1.1;
+  text-align: center;
+  font-family: 'AcuminPro-Regular';
+}
+
+.dia-form h1 {
+  font-size: 22px !important;
+  font-family: 'AcuminPro-SemiBold';
+  font-weight: 600;
+  margin-top: 3%;
+}
+
+.dia-form {
+  background: url('../images/dia-bg.png') no-repeat center center/cover;
+  position: relative;
+  height: 312px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+}
+
+.dia-form-size {
+  width: 100%;
+  height: auto;
+}
+
+.advantages .section-subtitle {
+  font-size: 18px !important;
+  color: #666;
+  font-family: 'AcuminPro-Regular';
+  margin-bottom: 0px;
+} 
+
+.advantages .section-title {
+  font-size: 35px !important;
+  font-weight: 500;
+  margin-bottom: 10px;
+  border-radius: 80px;
+  font-family: 'AcuminPro-SemiBold';
+}
+
+.advantages .adv-box {
+  text-align: center;
+  padding: 12px;
+    padding-bottom: 12px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  width: 89%;
+    margin: 0px auto;
+}
+
+.advantages .col-md-6 {
+  border-radius: 80px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  margin-left: 4%;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+  height: 130px;
+}
+
+.circle-icon {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #922790, #f05323);
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transform: translate(-18%,2%) !important;
+}
+
+.circle-icon-2 {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #922790, #f05323);
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transform: translate(-18%,2%) !important;
+}
+
+.white-wrapper {
+  width: 110px;
+  height: 105px;
+  border-radius: 50%;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.circle-icon-small {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #922790, #f05323);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
 
 }
