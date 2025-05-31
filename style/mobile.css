@@ -267,6 +267,8 @@
   .mobile-toggle-plus.active,
   .mobile-toggle-minus.active {
     display: inline-block;
+    position: absolute;
+    right: 20px;
   }
 
   .carousel .navbar .dropdown-toggle::after {
@@ -575,9 +577,9 @@
   }
 
   .about-us-section {
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
 
   .color-separator {
     margin: 15px 0 15px;
@@ -629,21 +631,22 @@
   }
 
   #navbarNav {
-    max-height: 100vh; 
-    overflow-y: auto;  
+    max-height: 100vh;
+    overflow-y: auto;
   }
 
   /* Hide by default */
-.sub-submenu {
-  display: none;
-  padding-left: 15px;
-  background-color: #222; /* match your mobile menu bg */
-}
+  .sub-submenu {
+    display: none;
+    padding-left: 15px;
+    background-color: #222;
+    /* match your mobile menu bg */
+  }
 
-/* Show when class is toggled */
-.sub-submenu.show {
-  display: block;
-}
+  /* Show when class is toggled */
+  .sub-submenu.show {
+    display: block;
+  }
 
 
   .dia-slide-1 {
@@ -659,7 +662,7 @@
     width: 100%;
     padding: 15px;
   }
-  
+
   .dia-slide-3 {
     background: url("../images/SGL-Dia-phone-03.png");
     height: 460px;
@@ -815,139 +818,144 @@
     display: flex;
   }
 
-  .advantages .adv-title{
+  .advantages .adv-title {
     font-size: 18px !important;
   }
 
   .advantages p {
-  font-size: 12px !important;
-  color: #666;
-  line-height: 1.2;
-  font-family: 'AcuminPro-Regular';
+    font-size: 12px !important;
+    color: #666;
+    line-height: 1.2;
+    font-family: 'AcuminPro-Regular';
+  }
+
+  #dia .container>h2 {
+    font-family: 'AcuminPro-SemiBold';
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  #dia .container>p {
+    font-size: 12px !important;
+    line-height: 1.4;
+    margin-bottom: 11px;
+  }
+
+  #dia .container>h4 {
+    font-family: 'AcuminPro-Regular';
+    font-weight: revert;
+    margin-bottom: 2px;
+    font-size: 18px !important;
+  }
+
+  .dia-order-btn {
+    background: black;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-size: 12px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .dia-screen-feature>h2 {
+    font-family: 'AcuminPro-Medium';
+    font-size: 26px;
+    font-weight: bolder;
+    position: absolute;
+    overflow: hidden;
+    transform: translate(77%, -210%);
+  }
+
+  .advantages .color-separator {
+    height: 2px;
+    background: linear-gradient(to left, rgb(239, 71, 36), rgb(124, 63, 152));
+    margin: 10px 20% 20px;
+    width: 60%;
+  }
+
+  #dia>.d-sm-block {
+    display: flex !important;
+    align-items: start;
+    position: absolute;
+    bottom: -13%;
+    width: 6%;
+  }
+
+  .dia-feature-section .dia-image-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+  }
+
+  .dia-feature-section .feature-box-section h1 {
+    font-size: 35px !important;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'AcuminPro-SemiBold';
+  }
+
+  .dia-feature-section .feature-box-section p {
+    font-size: 17px !important;
+    margin: 10px 0px;
+    line-height: 1.1;
+    text-align: center;
+    font-family: 'AcuminPro-Regular';
+  }
+
+  .dia-form h1 {
+    font-size: 22px !important;
+    font-family: 'AcuminPro-SemiBold';
+    font-weight: 600;
+    margin-top: 3%;
+  }
+
+  .dia-form {
+    background: url('../images/dia-bg.png') no-repeat center center/cover;
+    position: relative;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+  }
+
+  .dia-form-size {
+    width: 100%;
+    height: auto;
+  }
+
+  .advantages .section-subtitle {
+    font-size: 18px !important;
+    color: #666;
+    font-family: 'AcuminPro-Regular';
+    margin-bottom: 0px;
+  }
+
+  .advantages .section-title {
+    font-size: 35px !important;
+    font-weight: 500;
+    margin-bottom: 10px;
+    border-radius: 80px;
+    font-family: 'AcuminPro-SemiBold';
+  }
+
+  .list-unstyled {
+    display: flex;
+    text-align: left;
+    list-style: disc;
+    justify-content: left;
+    flex-direction: column;
+  }
+
+  .carousel .navbar .dropdown-submenu > .dropdown-menu{
+    position: static;
+  }
+
 }
 
-#dia .container > h2 {
-  font-family: 'AcuminPro-SemiBold';
-  font-size: 22px;
-  font-weight: 600;
-}
-
-#dia .container > p {
-  font-size: 12px !important;
-  line-height: 1.4;
-  margin-bottom: 11px;
-}
-
-#dia .container > h4 {
-  font-family: 'AcuminPro-Regular';
-  font-weight: revert;
-  margin-bottom: 2px;
-  font-size: 18px !important;
-}
-
-.dia-order-btn {
-  background: black;
-  color: white;
-  border-radius: 8px;
-  padding: 12px 18px;
-  font-size: 12px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.dia-screen-feature > h2 {
-  font-family: 'AcuminPro-Medium';
-  font-size: 26px;
-  font-weight: bolder;
-  position: absolute;
-  overflow: hidden;
-  transform: translate(77%, -210%);
-}
-
-.advantages .color-separator {
-  height: 2px;
-  background: linear-gradient(to left, rgb(239, 71, 36), rgb(124, 63, 152));
-  margin: 10px 20% 20px;
-  width: 60%;
-}
-
-#dia > .d-sm-block {
-  display: flex !important;
-  align-items: start;
-  position: absolute;
-  bottom: -13%;
-  width: 6%;
-}
-
-.dia-feature-section .dia-image-container {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin: auto;
-}
-
-.dia-feature-section .feature-box-section h1 {
-  font-size: 35px !important;
-  font-weight: 600;
-  text-align: center;
-  font-family: 'AcuminPro-SemiBold';
-}
-
-.dia-feature-section .feature-box-section p {
-  font-size: 17px !important;
-  margin: 10px 0px;
-  line-height: 1.1;
-  text-align: center;
-  font-family: 'AcuminPro-Regular';
-}
-
-.dia-form h1 {
-  font-size: 22px !important;
-  font-family: 'AcuminPro-SemiBold';
-  font-weight: 600;
-  margin-top: 3%;
-}
-
-.dia-form {
-  background: url('../images/dia-bg.png') no-repeat center center/cover;
-  position: relative;
-  height: 312px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  overflow: hidden;
-  color: white;
-  text-align: center;
-}
-
-.dia-form-size {
-  width: 100%;
-  height: auto;
-}
-
-.advantages .section-subtitle {
-  font-size: 18px !important;
-  color: #666;
-  font-family: 'AcuminPro-Regular';
-  margin-bottom: 0px;
-} 
-
-.advantages .section-title {
-  font-size: 35px !important;
-  font-weight: 500;
-  margin-bottom: 10px;
-  border-radius: 80px;
-  font-family: 'AcuminPro-SemiBold';
-}
-
-.list-unstyled {
-  display: flex;
-  text-align: left;
-  list-style: disc;
-  justify-content: left;
-  flex-direction: column;
-}
-
-}

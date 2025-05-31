@@ -12,14 +12,11 @@ $(window).on("scroll", function () {
 
 
 function toggleMobileMenu(event) {
-    const $this = $(event);    
-    console.log($this);
-    $this.siblings().toggleClass('active');
-    $this.toggleClass('active');
-}
+    const $this = $(event);
 
-$('.mobile-toggle-plus').on('click', function () {
-    console.log('clicked');
-    $(this).toggleClass('active');  
-    $(this).siblings().toggleClass('active');
-});
+    const $plusIcon = $this.find('.mobile-toggle-plus');
+    const $minusIcon = $this.find('.mobile-toggle-minus');
+
+    $plusIcon.toggleClass('active');
+    $minusIcon.toggleClass('active');
+}
