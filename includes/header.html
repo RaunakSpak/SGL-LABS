@@ -2,6 +2,9 @@
 
 <body>
 
+    <div class="body-overlay" id="bodyOverlay"></div>
+
+
     <nav class="navbar navbar-expand-lg glass-navbar" id="sglNavbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
@@ -75,7 +78,7 @@
 
                         <ul class="dropdown-menu" aria-labelledby="educationDropdown">
                             <li><a class="dropdown-item" href="education.html">Introduction</a></li>
-                            <li class="dropdown-submenu dropend position-relative" >
+                            <li class="dropdown-submenu dropend position-relative">
                                 <a class="dropdown-item dropdown-toggle submenu-toggle" href="#"
                                     data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
                                 <ul class="dropdown-menu right">
@@ -104,11 +107,26 @@
                             <!-- <li><a class="dropdown-item" href="course-calendar.html">Course Calendar</a></li> -->
                         </ul>
                     </li>
-
+                    <li>
+                        <div class="verify-toggle" id="verifyToggle">
+                            <img src="./images/verify.png" alt="">
+                        </div>
+                    </li>
                     <!--<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>-->
                 </ul>
             </div>
         </div>
+        <div class="verify-box" id="verifyBox">
+            <div class="verify-box-content">
+                <input type="text" placeholder="SGL Report Number" />
+                <button type="submit" class="verify-box-btn">
+                    Verify Report
+                </button>
+            </div>
+            <p class="verify-note">Postal instructions for UK, USA, Ireland & Scotland</p>
+        </div>
+
+
     </nav>
 
     <script>
@@ -117,7 +135,7 @@
 
             dropdownToggles.forEach(function (toggle) {
                 toggle.addEventListener('click', function (e) {
-                    e.preventDefault(); // Prevent default link behavior
+                    e.preventDefault();
                     const submenu = this.nextElementSibling;
 
                     document.querySelectorAll('.sub-submenu').forEach(menu => {
@@ -126,7 +144,6 @@
                         }
                     });
 
-                    // Toggle current submenu
                     submenu.classList.toggle('show');
 
                     // Optionally close other open submenus (uncomment to enable this behavior)
@@ -137,6 +154,36 @@
             });
         });
     </script>
+
+    <script>
+        const toggleBtn = document.getElementById('verifyToggle');
+        const box = document.getElementById('verifyBox');
+        const overlay = document.getElementById('bodyOverlay');
+
+        toggleBtn.addEventListener('click', function (e) {
+            e.stopPropagation(); // Prevent immediate close
+            const isOpen = box.classList.toggle('open');
+
+            if (isOpen) {
+                overlay.classList.add('active');
+            } else {
+                overlay.classList.remove('active');
+            }
+        });
+        document.addEventListener('click', function (e) {
+            const isClickInsideBox = box.contains(e.target);
+            const isClickOnToggle = toggleBtn.contains(e.target);
+
+            if (!isClickInsideBox && !isClickOnToggle) {
+                box.classList.remove('open');
+                overlay.classList.remove('active');
+            }
+        });
+    </script>
+
+
+
+
 </body>
 
 </html>
