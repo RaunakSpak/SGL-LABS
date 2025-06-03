@@ -276,7 +276,7 @@ a {
 
 .carousel .navbar .nav-item:hover>a::after {
   /* background-image: none; */
-  background-image: url("../images/arrow-down-sign-to-navigate.png");
+  background-image: url("../images/header/arrow-down-sign-to-navigate.png");
 }
 
 /* .carousel .navbar .dropdown-toggle:hover .carousel .navbar .dropdown-toggle::after  {
@@ -466,7 +466,7 @@ a {
   display: inline-block;
   width: 10px;
   height: 10px;
-  background-image: url("../images/icon-3.png");
+  background-image: url("../images/header/icon-3.png");
   background-size: contain;
   background-repeat: no-repeat;
   margin-left: 0.4em;
@@ -479,7 +479,7 @@ a {
   /* display: inline-block; */
   width: 10px;
   height: 10px;
-  background-image: url("../images/right-arrow.png");
+  background-image: url("../images/header/right-arrow.png");
   background-size: contain;
   background-repeat: no-repeat;
   margin-left: 0.4em;
@@ -495,7 +495,7 @@ a {
   display: inline-block;
   width: 10px;
   height: 10px;
-  background-image: url("../images/arrow-down-sign-to-navigate.png");
+  background-image: url("../images/header/arrow-down-sign-to-navigate.png");
   background-size: contain;
   background-repeat: no-repeat;
   margin-left: 0.4em;
@@ -3163,7 +3163,7 @@ footer table p {
 }
 
 .dia-form {
-  background: url('../images/dia-bg.png') no-repeat center center/cover;
+  background: url('../images/dia-screen/dia-bg.png') no-repeat center center/cover;
   position: relative;
   height: 455px;
   display: flex;
@@ -3821,7 +3821,7 @@ body {
 
 
 #demo-2 {
-  background-image: url("../images/SGL-Dia-Screen-Bg\ \(2\).png");
+  background-image: url("../images/dia-screen/SGL-Dia-Screen-Bg\ \(2\).png");
   background-position: center bottom;
   background-repeat: no-repeat;
   min-height: 740px;

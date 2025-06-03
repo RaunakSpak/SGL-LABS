@@ -200,11 +200,12 @@
 
   .carousel .navbar {
     display: block;
-    position: absolute;
-    position: static;
+    /* position: absolute;
+    position: static; */
     margin: 0;
     border-radius: 0;
     width: 100%;
+    position: relative;
   }
 
   .carousel .navbar .nav-link:hover {
@@ -516,7 +517,7 @@
     position: absolute;
     margin-top: 0;
     color: #fff;
-    bottom: 25%;
+    bottom: 0%;
     font-family: Arial, sans-serif;
     margin-left: 5px;
     font-size: 65px;
@@ -953,9 +954,19 @@
     flex-direction: column;
   }
 
-  .carousel .navbar .dropdown-submenu > .dropdown-menu{
+  .carousel .navbar .dropdown-submenu>.dropdown-menu {
     position: static;
   }
 
-}
+  .verify-toggle {
+    width: fit-content;
+  }
 
+  .brochure-section a {
+    position: relative;
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+  }
+
+}
