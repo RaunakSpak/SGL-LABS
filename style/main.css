@@ -3836,3 +3836,7 @@ body {
   color: #000000ed;
   opacity: 0.1;
 }
+
+.text-section{
+  bottom: 28% !important;
+}
