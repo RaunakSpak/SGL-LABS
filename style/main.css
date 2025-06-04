@@ -537,12 +537,16 @@ textarea {
 
 footer {
   background-color: #E6E7E7;
-  padding: 20px 0;
+  padding: 40px 0 4px 0;;
 }
 
 footer .footer-logo {
   width: 120px;
   margin-bottom: 20px;
+}
+
+footer p{
+  font-size: 11px !important;
 }
 
 footer .contact-info {
@@ -575,13 +579,14 @@ footer .footer-links {
   padding: 0;
 }
 
-footer .footer-links li {
+/* footer .footer-links li {
   margin-bottom: 5px;
-}
+} */
 
 footer .footer-links a {
   color: #000;
   text-decoration: none;
+  font-size: 11px;
 }
 
 footer .footer-links a:hover {
@@ -599,6 +604,7 @@ footer .social-icons a {
   border-radius: 50%;
   margin-right: 10px;
   font-size: 16px;
+  margin: 3px;
 }
 
 footer .social-icons a:hover {
@@ -3100,7 +3106,7 @@ why-card-img img {
 
 footer table td {
   vertical-align: top;
-  padding: 5px 8px;
+  padding: 3px 3px;
 }
 
 footer table p {
@@ -3109,6 +3115,7 @@ footer table p {
 
 .copyright {
   text-align: center;
+  font-size: 11px !important;
 }
 
 .timeline-section {
@@ -3839,4 +3846,12 @@ body {
 
 .text-section{
   bottom: 28% !important;
+}
+
+
+.border-seperator{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 0px;
 }
