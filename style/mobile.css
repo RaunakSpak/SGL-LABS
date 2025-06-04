@@ -969,20 +969,31 @@
     color: white;
   }
 
-  .border-seperator{
+  .border-seperator {
     width: 100%;
   }
 
-  .footer-link-section{
-  width: 100%;
-}
+  .footer-link-section {
+    width: 100%;
+  }
 
-.footer-first-section{
-  width: 100%;
-}
+  .footer-first-section {
+    width: 100%;
+  }
 
-.footer-third-section{
-  width: 100%;
-}
+  .footer-third-section {
+    width: 100%;
+  }
 
+  .carousel-ind {
+    top: auto;
+  }
+
+  .border-seperator {
+    border-left: none;
+    border-top: 2px solid #ccc;
+    width: 100%;
+    height: 0;
+    margin: 10px;
+  }
 }

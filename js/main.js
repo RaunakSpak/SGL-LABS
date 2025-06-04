@@ -20,3 +20,17 @@ function toggleMobileMenu(event) {
     $plusIcon.toggleClass('active');
     $minusIcon.toggleClass('active');
 }
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const row = document.getElementById('footerRow');
+    const sectionLeft = document.getElementById('sectionLeft');
+    const sectionRight = document.getElementById('sectionRight');
+
+    if (row && sectionLeft && sectionRight) {
+
+        row.innerHTML = '';
+        row.appendChild(sectionLeft);
+        row.appendChild(sectionRight);
+    }
+});
