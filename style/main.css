@@ -604,7 +604,7 @@ footer .social-icons a {
   border-radius: 50%;
   margin-right: 10px;
   font-size: 16px;
-  margin: 3px;
+  margin: 4px;
 }
 
 footer .social-icons a:hover {
@@ -2049,6 +2049,7 @@ footer .social-icons a:hover {
   flex-direction: column;
   margin-left: 0px;
   margin-right: 0px;
+  min-height: 545px;
 }
 
 .course-card:hover {
@@ -3854,4 +3855,16 @@ body {
   justify-content: center;
   align-items: stretch;
   width: 0px;
+}
+
+.footer-link-section{
+  width: 10%;
+}
+
+.footer-first-section{
+  width: 21%;
+}
+
+.footer-third-section{
+  width: 13%;
 }

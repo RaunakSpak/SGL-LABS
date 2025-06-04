@@ -969,6 +969,20 @@
     color: white;
   }
 
-  
+  .border-seperator{
+    width: 100%;
+  }
+
+  .footer-link-section{
+  width: 100%;
+}
+
+.footer-first-section{
+  width: 100%;
+}
+
+.footer-third-section{
+  width: 100%;
+}
 
 }
