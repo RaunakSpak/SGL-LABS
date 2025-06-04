@@ -552,7 +552,7 @@ footer p{
 footer .contact-info {
   font-size: 12px;
   color: #333;
-  line-height: 1.5rem;
+  line-height: 1.2rem;
 }
 
 footer .contact-info img {
@@ -1161,7 +1161,7 @@ footer .social-icons a:hover {
 
 .dia-slide-head {
   display: inline-block;
-  width: 70%;
+  /* width: 70%; */
   margin-top: 5%;
   margin-bottom: 2%;
   font-size: 44px !important;
@@ -1657,9 +1657,7 @@ footer .social-icons a:hover {
   font-family: 'AcuminPro-Medium';
   font-size: 40px;
   font-weight: bolder;
-  position: absolute;
   overflow: hidden;
-  transform: translate(222%, -270%);
 }
 
 .dia-screen-feature .feature-box {
@@ -3684,7 +3682,7 @@ footer table p {
 }
 
 .carousel-card a {
-  margin-top: 4rem !important;
+  margin-top: 0rem !important;
   padding: 13px 20px;
   font-size: 15px !important;
   font-weight: bold;
@@ -3862,9 +3860,14 @@ body {
 }
 
 .footer-first-section{
-  width: 21%;
+  width: 24%;
 }
 
 .footer-third-section{
   width: 13%;
+}
+
+.follow-us-section{
+  margin: 0px;
+  padding: inherit;
 }
