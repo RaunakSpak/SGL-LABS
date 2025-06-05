@@ -3871,3 +3871,7 @@ body {
   margin: 0px;
   padding: inherit;
 }
+
+.courses-cards{
+  min-height: 498px !important;
+}
