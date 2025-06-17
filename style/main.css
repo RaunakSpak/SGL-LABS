@@ -72,27 +72,6 @@
   font-display: swap;
 }
 
-/* @font-face {
-  font-family: 'Acumin Variable Concept';
-  src: url('./fonts/AcuminVariableConcept.woff2') format('woff2'),
-       url('./fonts/AcuminVariableConcept.woff') format('woff'),
-       url('./fonts/AcuminVariableConcept.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-
-/* @font-face {
-    font-family: 'Abel-Regular';
-    src: url('../fonts/Abel-Regular/Abel-Regular.eot');
-    src: url('../fonts/Abel-Regular/Abel-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Abel-Regular/Abel-Regular.woff2') format('woff2'),
-        url('../fonts/Abel-Regular/Abel-Regular.woff') format('woff'),
-        url('../fonts/Abel-Regular/Abel-Regular.ttf') format('truetype'),
-        url('../fonts/Abel-Regular/Abel-Regular.svg#Abel-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-} */
 
 @font-face {
   font-family: 'AcuminPro-Semibold';
@@ -1677,6 +1656,7 @@ footer .social-icons a:hover {
   color: white;
   margin-top: 5%;
   margin-bottom: 5%;
+  padding: 0px;
 }
 
 .dia-feature-section .feature-box-section {
